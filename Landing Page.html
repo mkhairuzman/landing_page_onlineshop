@@ -1,0 +1,2257 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<title>Kichen Store | Gantungan Kunci Motor, Key Tag & Aksesori Kecil</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<meta name="description" content="Kichen Store menjual gantungan kunci motor, custom key tag, dan aksesori kecil bergaya untuk penggunaan harian. Belanja mudah via Shopee, Tokopedia, TikTok Shop, atau WhatsApp." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0c0c0d;           /* warm-dark */
+    --bg-2:#141312;
+    --paper:#ece5d6;        /* warm cream */
+    --paper-2:#dfd6c0;
+    --ink:#161410;
+    --ink-2:#3a342a;
+    --line:#27241f;
+    --line-paper:#cabe9f;
+    --text:#f4ede0;
+    --muted:#a39c8a;
+    --muted-2:#6f6a5d;
+    --red:#e63329;
+    --red-2:#ff4a3d;
+    --hi:#ffd60a;           /* hi-vis yellow */
+    --shopee:#ee4d2d;
+    --toko:#42b549;
+    --tiktok:#ff0050;
+    --wa:#25d366;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth; scroll-padding-top:104px}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:'DM Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:clip;text-rendering:optimizeLegibility}
+  body{transition: background .25s ease}
+  body{padding-bottom:calc(86px + env(safe-area-inset-bottom));}
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
+  ::selection{background:var(--hi);color:var(--ink)}
+
+  /* paper grain helper */
+  .grain{position:relative}
+  .grain::before{
+    content:"";position:absolute;inset:0;pointer-events:none;mix-blend-mode:overlay;opacity:.5;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .35 0'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='.6'/></svg>");
+  }
+
+  .wrap{max-width:1240px;margin:0 auto;padding:0 18px}
+  @media(min-width:640px){.wrap{padding:0 24px}}
+  @media(min-width:900px){.wrap{padding:0 32px}}
+
+  /* reveal-on-scroll */
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1)}
+  .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion: reduce){.reveal{opacity:1;transform:none;transition:none}}
+
+  /* ============================== LANG SWITCHER ============================== */
+  .lang{
+    display:inline-flex;align-items:center;
+    border:1.5px solid var(--line);
+    background:rgba(20,19,18,.6);
+    border-radius:0;padding:3px;gap:0;
+    font-family:'JetBrains Mono',monospace;
+    transition:border-color .2s, background .2s;
+  }
+  .lang:hover{border-color:#4a4339;background:rgba(20,19,18,.85)}
+  .lang button{
+    font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+    padding:7px 10px;
+    color:var(--muted);
+    transition:background .15s, color .15s;
+    border-radius:0;
+    line-height:1;
+    min-width:34px;
+  }
+  .lang button.active{background:var(--hi);color:var(--ink)}
+  .lang button:not(.active):hover{color:var(--text)}
+  .lang .sep{display:none}
+
+  .nav-right{display:flex;align-items:center;gap:12px}
+
+  /* ============================== RESPONSIVE TUNING ============================== */
+  /* phone-small */
+  @media (max-width:380px){
+    .nav-inner{height:58px;gap:8px}
+    .brand-patch{height:28px}
+    .brand-name{font-size:15px;letter-spacing:.04em}
+    .lang button{padding:6px 8px;font-size:10.5px;min-width:30px}
+  }
+  .brand-meta{min-width:0}
+  .brand-name{white-space:nowrap}
+
+  /* tablet portrait — improve hero collage and gallery */
+  @media (min-width:640px) and (max-width:899px){
+    .hero-grid{grid-template-columns:1.05fr .95fr;gap:32px;align-items:center}
+    .h-title{font-size:clamp(60px, 9vw, 96px)}
+    .collage{max-width:520px}
+    .gallery{grid-template-columns:repeat(6,1fr);gap:18px}
+    .insta-block{grid-template-columns:1.05fr .95fr;padding:42px 32px}
+    .insta-block h2{font-size:clamp(34px,4.4vw,46px)}
+    .specsheet-head h2{font-size:clamp(38px,4.8vw,54px)}
+    .tickets{grid-template-columns:repeat(4,1fr)}
+  }
+
+  /* tablet landscape */
+  @media (min-width:900px) and (max-width:1099px){
+    .stickers-row{grid-template-columns:repeat(4,1fr)}
+    .h-title{font-size:clamp(64px,8.5vw,108px)}
+  }
+
+  /* hover-only on devices that support it (skip clunky hover on touch) */
+  @media (hover:none){
+    .ticket:hover{transform:none;box-shadow:6px 6px 0 var(--ink)}
+    .pcard:hover{transform:none}
+    .item:hover{transform:none}
+  }
+
+  /* nav shrink when scrolled */
+  .nav.scrolled{box-shadow: 0 8px 20px -10px rgba(0,0,0,.6)}
+  .nav.scrolled .nav-inner{height:58px;transition:height .2s ease}
+  .nav-inner{transition:height .2s ease}
+
+  /* polaroid loaded animation */
+  .polaroid{opacity:0;transform:translateY(20px) rotate(var(--r,0));transition:opacity .5s ease, transform .6s cubic-bezier(.2,.7,.2,1);}
+  .collage.loaded .polaroid{opacity:1;transform:rotate(var(--r,0))}
+  .polaroid.p1{--r:-5deg}
+  .polaroid.p2{--r:6deg}
+  .polaroid.p3{--r:-2deg}
+  .polaroid.p4{--r:8deg}
+  .collage.loaded .p1{transition-delay:.06s}
+  .collage.loaded .p2{transition-delay:.16s}
+  .collage.loaded .p3{transition-delay:.26s}
+  .collage.loaded .p4{transition-delay:.36s}
+  .sticker{opacity:0;transition:opacity .5s ease .55s, transform .5s ease .55s}
+  .collage.loaded .sticker{opacity:1}
+  .collage.loaded .sticker.s1{transform:rotate(-12deg)}
+  .collage.loaded .sticker.s2{transform:rotate(10deg)}
+
+  /* slight scale on ticket arrow hover on devices that hover */
+  @media (hover:hover){
+    .pcard:hover .footing .arr{transform:translateX(4px);display:inline-block}
+    .footing .arr{transition:transform .2s}
+  }
+
+  /* IG hover lift */
+  .ig{transition:transform .25s ease, filter .25s ease}
+  @media (hover:hover){.ig:hover{transform:scale(1.04);filter:brightness(1.05);z-index:2;position:relative}}
+
+  /* prevent layout shift from font load */
+  .h-title, .sec-title, .final h2, .specsheet-head h2, .ticket .name, .pcard h3, .item .info h4{
+    font-display:swap;
+  }
+
+  /* ============================== STICKY HEADER GROUP ============================== */
+  .site-stick{
+    position:sticky;top:0;z-index:60;
+    isolation:isolate;
+  }
+
+  /* ============================== TOP TICKER ============================== */
+  .topbar{
+    background:var(--hi);color:var(--ink);
+    border-bottom:1px solid #b89a00;
+    overflow:hidden;
+    font-family:'JetBrains Mono',monospace;
+    font-size:11.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
+  }
+  .topbar-track{display:flex;gap:36px;width:max-content;padding:7px 0;animation:slide 38s linear infinite;will-change:transform}
+  @media (max-width:640px){.topbar-track{animation-duration:24s;font-size:10.5px}}
+  @media (prefers-reduced-motion: reduce){.topbar-track,.ribbon-track{animation:none}}
+  .topbar-track span{display:inline-flex;align-items:center;gap:36px;white-space:nowrap}
+  .topbar-track .x{color:#a37500}
+  @keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+  /* ============================== NAV ============================== */
+  .nav{
+    background:rgba(12,12,13,.85);
+    backdrop-filter:blur(12px) saturate(140%);
+    -webkit-backdrop-filter:blur(12px) saturate(140%);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .brand-patch{
+    height:36px;width:auto;
+    filter:drop-shadow(0 2px 4px rgba(0,0,0,.45));
+    transform:rotate(-3deg);
+  }
+  .brand-meta{display:flex;flex-direction:column;line-height:1}
+  .brand-name{font-family:'Anton',sans-serif;letter-spacing:.06em;font-size:18px}
+  .brand-tag{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.18em;color:var(--muted);text-transform:uppercase;margin-top:3px}
+  .nav-links{display:none;gap:26px;font-size:13.5px;color:var(--muted);font-weight:500}
+  .nav-links a:hover{color:var(--text)}
+  .nav-cta{display:none !important}
+  .brand-tag{display:none}
+  @media(min-width:900px){
+    .nav-links{display:flex}
+    .nav-cta{display:inline-flex !important}
+    .brand-tag{display:block}
+  }
+
+  /* ============================== BUTTON SYSTEM ============================== */
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:10px;
+    padding:14px 20px;
+    border-radius:0;
+    font-weight:700;font-size:14.5px;letter-spacing:.02em;
+    transition:transform .12s ease, background .2s, color .2s, border-color .2s;
+    border:2px solid transparent;
+    text-transform:uppercase;
+    font-family:'DM Sans',sans-serif;
+  }
+  .btn:active{transform:translate(1px,1px)}
+  .btn-red{background:var(--red);color:#fff;box-shadow:4px 4px 0 #5a1410}
+  .btn-red:hover{background:var(--red-2)}
+  .btn-hi{background:var(--hi);color:var(--ink);box-shadow:4px 4px 0 #4a3a00}
+  .btn-hi:hover{filter:brightness(1.04)}
+  .btn-wa{background:var(--wa);color:#072811;box-shadow:4px 4px 0 #0a3a18}
+  .btn-ghost{background:transparent;border-color:#454039;color:var(--text)}
+  .btn-ghost:hover{background:#1c1a16;border-color:#8a8170}
+  .btn-paper{background:var(--ink);color:var(--paper);box-shadow:4px 4px 0 var(--red)}
+  .btn-paper:hover{background:#000}
+
+  /* ============================== HERO ============================== */
+  .hero{position:relative;padding:34px 0 24px;overflow:hidden}
+  @media(min-width:900px){.hero{padding:54px 0 40px}}
+
+  .hero-grid{display:grid;grid-template-columns:1fr;gap:34px;align-items:center}
+  @media(min-width:1000px){.hero-grid{grid-template-columns:1.05fr .95fr;gap:48px}}
+
+  .h-eyebrow{
+    display:inline-flex;align-items:center;gap:10px;
+    padding:6px 12px;
+    border:1.5px dashed var(--hi);
+    color:var(--hi);
+    font-family:'JetBrains Mono',monospace;
+    font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+    border-radius:0;
+  }
+  .h-eyebrow .sq{width:8px;height:8px;background:var(--red);display:inline-block;transform:rotate(45deg)}
+
+  .h-title{
+    font-family:'Anton',sans-serif;
+    font-size:clamp(54px, 11.5vw, 132px);
+    line-height:.86;
+    letter-spacing:-.005em;
+    margin:18px 0 8px;
+    text-transform:uppercase;
+    text-wrap:balance;
+  }
+  .h-title .ride{display:inline-block;color:var(--hi);position:relative}
+  .h-title .ride::after{
+    content:"";position:absolute;left:-4px;right:-4px;bottom:6%;height:14%;
+    background: repeating-linear-gradient(90deg, var(--red) 0 8px, transparent 8px 14px);
+    z-index:-1;opacity:.85;
+  }
+  .h-title .strike{position:relative}
+  .h-title .strike::after{
+    content:"";position:absolute;left:-2%;right:-2%;top:48%;height:8%;
+    background:var(--red);transform:rotate(-1.2deg);opacity:.95;
+  }
+  .h-title .em{color:var(--red)}
+
+  .h-sub{
+    color:#cfc9b9;font-size:clamp(15px,1.6vw,17.5px);line-height:1.55;
+    max-width:52ch;margin:18px 0 26px;
+  }
+  .h-sub b{color:var(--text);font-weight:700}
+
+  .h-cta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:24px}
+
+  .h-strip{
+    display:flex;flex-wrap:wrap;align-items:center;gap:14px 24px;
+    padding-top:18px;border-top:1px dashed #3a342a;
+    color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase
+  }
+  .h-strip .b{color:var(--text);font-weight:700}
+  .h-strip .dot{width:6px;height:6px;border-radius:50%;background:var(--hi);display:inline-block;margin-right:6px;vertical-align:middle}
+
+  /* hero collage */
+  .collage{position:relative;aspect-ratio:1/1.05;width:100%;max-width:680px;margin:0 auto}
+  @media(min-width:1000px){.collage{aspect-ratio:1/1}}
+  .polaroid{
+    position:absolute;background:var(--paper);padding:10px 10px 36px;
+    box-shadow: 0 18px 40px -16px rgba(0,0,0,.6), 0 2px 0 rgba(0,0,0,.2);
+  }
+  .polaroid .pic{
+    width:100%;height:100%;background-size:cover;background-position:center;
+  }
+  .polaroid .pic-wrap{aspect-ratio:1/1;overflow:hidden;background:#222}
+  .polaroid .cap{
+    position:absolute;left:14px;right:14px;bottom:8px;
+    font-family:'Caveat',cursive;font-weight:700;color:var(--ink);font-size:17px;line-height:1;
+  }
+  .polaroid .lot{
+    position:absolute;left:10px;top:10px;
+    font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.18em;background:var(--red);color:#fff;padding:3px 6px;text-transform:uppercase;font-weight:700;
+  }
+  .p1{width:62%;left:0;top:4%;transform:rotate(-5deg)}
+  .p2{width:52%;right:0;top:0;transform:rotate(6deg)}
+  .p3{width:46%;left:16%;bottom:0;transform:rotate(-2deg);z-index:2}
+  .p4{width:38%;right:4%;bottom:6%;transform:rotate(8deg);z-index:3}
+
+  .sticker{
+    position:absolute;display:inline-flex;align-items:center;justify-content:center;
+    font-family:'Anton',sans-serif;text-transform:uppercase;letter-spacing:.04em;
+    border-radius:999px;padding:14px 22px;
+    transform:rotate(-12deg);
+    z-index:4;
+    box-shadow:0 8px 18px -8px rgba(0,0,0,.5);
+  }
+  .sticker.s1{background:var(--hi);color:var(--ink);font-size:15px;top:-6px;right:6%}
+  .sticker.s1 small{display:block;font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.2em;font-weight:700;margin-top:2px}
+  .sticker.s2{background:var(--red);color:#fff;font-size:14px;bottom:6%;left:-8px;transform:rotate(10deg);padding:10px 16px;}
+  .sticker.s2 b{font-family:'Anton';font-size:18px;display:block;line-height:.9}
+
+  /* ============================== MARQUEE (mid) ============================== */
+  .ribbon{
+    background:var(--paper);color:var(--ink);
+    border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);
+    overflow:hidden;
+    position:relative;
+  }
+  .ribbon-track{display:flex;gap:28px;width:max-content;padding:14px 0;animation:slide 38s linear infinite;font-family:'Anton',sans-serif;letter-spacing:.06em;text-transform:uppercase;font-size:22px;align-items:center;white-space:nowrap;will-change:transform}
+  @media (max-width:640px){.ribbon-track{animation-duration:28s;font-size:17px;padding:11px 0}}
+  .ribbon-track span{display:inline-flex;align-items:center;gap:28px}
+  .ribbon-track .x{color:var(--red)}
+  .ribbon-track .star{color:var(--hi);background:var(--ink);width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;border-radius:50%;font-size:13px}
+
+  /* ============================== SECTION FRAMING ============================== */
+  .section{padding:64px 0;position:relative}
+  @media(min-width:900px){.section{padding:96px 0}}
+
+  .section.cream{background:var(--paper);color:var(--ink)}
+  .section.cream .muted{color:#6a6256}
+
+  .sec-stamp{
+    display:inline-flex;align-items:center;gap:10px;
+    font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;
+    padding:6px 10px;
+    border:1.5px solid currentColor;
+    color:var(--hi);
+    transform:rotate(-1deg);
+  }
+  .section.cream .sec-stamp{color:var(--red)}
+  .sec-stamp .dot{width:6px;height:6px;background:currentColor;border-radius:50%;display:inline-block}
+
+  .sec-title{
+    font-family:'Anton',sans-serif;text-transform:uppercase;
+    font-size:clamp(36px,6vw,80px);line-height:.92;letter-spacing:-.005em;
+    margin:14px 0 0;text-wrap:balance;
+  }
+  .sec-title .em{color:var(--red)}
+  .sec-title .y{color:var(--hi)}
+  .section.cream .sec-title .em{color:var(--red)}
+  .section.cream .sec-title .y{color:var(--ink); background:var(--hi); padding: 0 .08em}
+
+  .sec-desc{color:var(--muted);max-width:54ch;margin-top:14px;font-size:15.5px;line-height:1.55}
+  .section.cream .sec-desc{color:#6a6256}
+
+  .sec-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:32px;flex-wrap:wrap}
+
+  /* ============================== SHOP TICKETS ============================== */
+  .tickets{display:grid;grid-template-columns:1fr;gap:14px}
+  @media(min-width:680px){.tickets{grid-template-columns:repeat(2,1fr);gap:18px}}
+  @media(min-width:1000px){.tickets{grid-template-columns:repeat(4,1fr)}}
+
+  .ticket{
+    --c: var(--red);
+    position:relative;
+    background:#fff;color:var(--ink);
+    border:1.5px solid var(--ink);
+    padding:18px 18px 18px;
+    transition:transform .12s ease, box-shadow .2s;
+    box-shadow: 6px 6px 0 var(--ink);
+    overflow:hidden;
+  }
+  .ticket:hover{transform:translate(-2px,-2px); box-shadow: 8px 8px 0 var(--c)}
+  .ticket[data-b="shopee"]{--c:var(--shopee)}
+  .ticket[data-b="toko"]{--c:var(--toko)}
+  .ticket[data-b="tiktok"]{--c:var(--tiktok)}
+  .ticket[data-b="wa"]{--c:var(--wa)}
+  .ticket .head{
+    display:flex;justify-content:space-between;align-items:center;
+    font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#6a6256;
+    border-bottom:1.5px dashed #c9c1aa;padding-bottom:10px;margin-bottom:14px;
+  }
+  .ticket .head .stamp{
+    background:var(--c);color:#fff;padding:3px 7px;letter-spacing:.18em;font-size:9.5px;
+  }
+  .ticket[data-b="tiktok"] .stamp,
+  .ticket[data-b="wa"] .stamp{color:#fff}
+  .ticket .name{font-family:'Anton',sans-serif;font-size:28px;letter-spacing:.02em;line-height:1;text-transform:uppercase;margin-bottom:6px}
+  .ticket .url{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:#6a6256;letter-spacing:.04em;margin-bottom:18px;word-break:break-all}
+  .ticket .foot{display:flex;align-items:center;justify-content:space-between}
+  .ticket .go{
+    font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;
+    border-bottom:2px solid var(--c);padding-bottom:3px;color:var(--ink);
+  }
+  .ticket .ar{
+    width:36px;height:36px;background:var(--c);color:#fff;display:flex;align-items:center;justify-content:center;
+    border-radius:0;transition:transform .15s;
+  }
+  .ticket:hover .ar{transform:rotate(-25deg)}
+  /* perforated edges */
+  .ticket::before,.ticket::after{
+    content:"";position:absolute;width:18px;height:18px;border-radius:50%;background:var(--bg);
+  }
+  .ticket::before{left:-10px;top:50%;transform:translateY(-50%)}
+  .ticket::after{right:-10px;top:50%;transform:translateY(-50%)}
+  /* on cream bg variant */
+  .section.cream .ticket::before, .section.cream .ticket::after{background:var(--paper)}
+
+  /* ============================== CATEGORIES (sticker pack) ============================== */
+  .stickers-row{display:grid;grid-template-columns:1fr;gap:20px}
+  @media(min-width:680px){.stickers-row{grid-template-columns:repeat(2,1fr)}}
+  @media(min-width:1100px){.stickers-row{grid-template-columns:repeat(4,1fr)}}
+
+  .pcard{
+    position:relative;background:var(--bg-2);
+    border:1.5px solid var(--line);
+    padding:22px;
+    display:flex;flex-direction:column;justify-content:space-between;
+    min-height:280px;
+    transition:transform .15s, border-color .2s, background .2s;
+  }
+  .pcard:hover{transform:translateY(-3px);border-color:#544c40;background:#1d1a16}
+  .pcard .lot{
+    font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:700;letter-spacing:.2em;color:var(--muted-2);
+    display:flex;justify-content:space-between;
+  }
+  .pcard .lot .red{color:var(--red)}
+  .pcard h3{
+    font-family:'Anton',sans-serif;text-transform:uppercase;font-size:30px;line-height:.95;letter-spacing:.01em;
+    margin:30px 0 10px;
+  }
+  .pcard h3 .y{background:var(--hi);color:var(--ink);padding:0 .1em}
+  .pcard p{color:#bbb39e;font-size:13.5px;line-height:1.55;margin:0 0 16px}
+  .pcard .seal{
+    position:absolute;top:18px;right:18px;
+    width:52px;height:52px;border-radius:50%;
+    border:1.5px dashed var(--hi);
+    color:var(--hi);
+    font-family:'Anton';font-size:14px;letter-spacing:.04em;
+    display:flex;align-items:center;justify-content:center;text-align:center;line-height:1;
+    transform:rotate(-10deg);
+  }
+  .pcard .footing{display:flex;align-items:center;gap:10px;color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase}
+  .pcard .footing .arr{color:var(--red)}
+
+  /* ============================== SPEC SHEET (Why) ============================== */
+  .specsheet{
+    background:var(--paper);color:var(--ink);
+    border:1.5px solid var(--ink);
+    padding:24px;
+    position:relative;
+  }
+  @media(min-width:900px){.specsheet{padding:36px}}
+  .specsheet::before{
+    content:"";position:absolute;left:24px;right:24px;top:14px;height:3px;
+    background:repeating-linear-gradient(90deg,var(--ink) 0 6px, transparent 6px 12px);
+  }
+  .specsheet-head{
+    display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:18px;
+    margin:18px 0 18px;padding-bottom:18px;border-bottom:2px dashed var(--line-paper);
+  }
+  .specsheet-head h2{
+    font-family:'Anton',sans-serif;font-size:clamp(34px,5.6vw,68px);text-transform:uppercase;line-height:.95;margin:0;letter-spacing:-.005em;
+  }
+  .specsheet-head h2 .y{background:var(--hi);padding:0 .1em}
+  .specsheet-head .no{
+    font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#6a6256;
+  }
+  .spec-list{display:grid;grid-template-columns:1fr;gap:0}
+  @media(min-width:780px){.spec-list{grid-template-columns:repeat(2,1fr);gap:0 28px}}
+  .spec-row{
+    display:grid;grid-template-columns:42px 1fr auto;gap:14px;align-items:start;
+    padding:18px 0;border-bottom:1px dashed var(--line-paper);
+  }
+  .spec-row:last-child, .spec-row:nth-last-child(2):nth-child(odd){border-bottom:0}
+  @media(max-width:779px){.spec-row:last-child{border-bottom:0}.spec-row:not(:last-child){border-bottom:1px dashed var(--line-paper)!important}}
+  .spec-row .d:empty,
+  .spec-row .d{display:none}
+  .spec-row{align-items:center}
+  .spec-row .nu{
+    font-family:'Anton',sans-serif;font-size:28px;color:var(--red);line-height:1;
+  }
+  .spec-row .t{font-family:'Anton',sans-serif;font-size:22px;line-height:1.05;text-transform:uppercase;letter-spacing:.005em;margin:0 0 4px}
+  .spec-row .d{color:#6a6256;font-size:13.5px;line-height:1.5;margin:0}
+  .spec-row .ck{
+    width:30px;height:30px;border-radius:50%;background:var(--ink);color:var(--hi);
+    display:flex;align-items:center;justify-content:center;margin-top:4px;
+  }
+  .specsheet-foot{
+    display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;
+    margin-top:20px;padding-top:18px;border-top:2px dashed var(--line-paper);
+    font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#6a6256;
+  }
+  .specsheet-foot .stamp-circle{
+    width:78px;height:78px;border-radius:50%;border:1.5px solid var(--red);color:var(--red);
+    display:flex;align-items:center;justify-content:center;text-align:center;
+    font-family:'Anton';font-size:13px;letter-spacing:.04em;line-height:.95;
+    transform:rotate(-8deg);padding:6px;
+  }
+
+  /* ============================== PRODUCT GALLERY ============================== */
+  .gallery{
+    display:grid;grid-template-columns:1fr;gap:20px;
+  }
+  @media(min-width:680px){.gallery{grid-template-columns:repeat(6,1fr);gap:22px}}
+  .item{position:relative;background:var(--bg-2);border:1.5px solid var(--line);transition:transform .15s,border-color .2s;overflow:hidden}
+  .item:hover{transform:translateY(-3px);border-color:#544c40}
+  .item .pic{
+    background-size:cover;background-position:center;
+    aspect-ratio:1/1;position:relative;
+  }
+  .item .pic::after{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(180deg,transparent 55%,rgba(0,0,0,.75) 100%);
+  }
+  .item .lot{
+    position:absolute;top:12px;left:12px;z-index:2;
+    font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;
+    background:rgba(12,12,13,.8);color:#fff;padding:4px 8px;border:1px solid rgba(255,255,255,.12)
+  }
+  .item .tag{
+    position:absolute;top:12px;right:12px;z-index:2;
+    font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;
+    background:var(--red);color:#fff;padding:4px 8px;
+  }
+  .item .tag.hi{background:var(--hi);color:var(--ink)}
+  .item .tag.dk{background:#fff;color:var(--ink)}
+  .item .info{
+    position:absolute;left:14px;right:14px;bottom:12px;z-index:2;
+    display:flex;align-items:end;justify-content:space-between;gap:10px;
+  }
+  .item .info h4{font-family:'Anton',sans-serif;text-transform:uppercase;font-size:20px;line-height:1;margin:0 0 4px;letter-spacing:.01em}
+  .item .info .price{display:none}
+  .item .info{justify-content:flex-start}
+  .item .info p{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-family:'JetBrains Mono';color:#c9c2af;margin:0}
+  .item .info .price{font-family:'Anton',sans-serif;font-size:18px;line-height:1;letter-spacing:.02em;text-align:right;white-space:nowrap}
+  .item .info .price small{display:block;font-family:'JetBrains Mono';font-size:9px;letter-spacing:.16em;color:#c9c2af;margin-bottom:2px;font-weight:500}
+
+  .item .buy{
+    position:absolute;left:0;right:0;bottom:-44px;z-index:3;
+    background:var(--hi);color:var(--ink);
+    text-align:center;font-family:'Anton',sans-serif;text-transform:uppercase;letter-spacing:.04em;
+    padding:12px;font-size:15px;
+    transition: bottom .25s ease;
+    display:flex;align-items:center;justify-content:center;gap:10px;
+  }
+  .item:hover .buy{bottom:0}
+  @media(hover:none){.item .buy{bottom:0;position:relative;left:auto;right:auto}}
+
+  /* gallery shape sizing */
+  @media(min-width:680px){
+    .g-1{grid-column: span 3}
+    .g-2{grid-column: span 3}
+    .g-3{grid-column: span 2}
+    .g-4{grid-column: span 2}
+    .g-5{grid-column: span 2}
+    .g-6{grid-column: span 3}
+    .g-7{grid-column: span 3}
+    .g-1 .pic, .g-2 .pic{aspect-ratio: 4 / 3.4}
+  }
+
+  /* ============================== INSTAGRAM ============================== */
+  .insta-block{
+    position:relative;
+    background:
+      radial-gradient(140% 100% at 100% 0%, rgba(214,41,118,.18), transparent 55%),
+      radial-gradient(120% 100% at 0% 100%, rgba(79,91,213,.14), transparent 55%),
+      var(--bg-2);
+    border:1.5px solid var(--line);
+    padding:36px 24px;
+    display:grid;grid-template-columns:1fr;gap:30px;align-items:center;
+    overflow:hidden;
+  }
+  @media(min-width:900px){
+    .insta-block{grid-template-columns:1.1fr .9fr;padding:48px;}
+  }
+  .insta-handle{
+    display:inline-flex;align-items:center;gap:10px;
+    font-family:'Anton',sans-serif;font-size:18px;letter-spacing:.04em;
+    background:linear-gradient(135deg,#feda75,#fa7e1e 30%,#d62976 55%,#962fbf 75%,#4f5bd5);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    margin-bottom:10px;
+  }
+  .insta-block h2{
+    font-family:'Anton',sans-serif;text-transform:uppercase;font-size:clamp(30px,4.6vw,56px);line-height:.92;margin:0 0 14px;letter-spacing:-.005em
+  }
+  .insta-block p{color:var(--muted);max-width:42ch;margin:0 0 22px;font-size:15px}
+  .ig-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+  .ig{
+    aspect-ratio:1/1;background-size:cover;background-position:center;position:relative;
+    border:1px solid rgba(255,255,255,.06)
+  }
+  .ig .heart{
+    position:absolute;left:8px;bottom:8px;display:flex;align-items:center;gap:4px;
+    font-family:'JetBrains Mono',monospace;font-size:10px;color:#fff;font-weight:700;
+    text-shadow:0 1px 2px rgba(0,0,0,.5);
+  }
+  .btn-insta{
+    background:linear-gradient(135deg,#fa7e1e,#d62976 45%,#962fbf 75%,#4f5bd5);
+    color:#fff;box-shadow:4px 4px 0 #2a103f;
+  }
+
+  /* ============================== FINAL CTA ============================== */
+  .final{
+    position:relative;overflow:hidden;
+    background:var(--ink);color:var(--paper);
+    border:2px solid var(--ink);
+    padding:48px 24px;
+  }
+  @media(min-width:900px){.final{padding:80px 56px}}
+  .final::before{
+    content:"";position:absolute;inset:0;
+    background:
+      radial-gradient(80% 60% at 100% 0%, rgba(230,51,41,.28), transparent 55%),
+      radial-gradient(50% 50% at 0% 100%, rgba(255,214,10,.18), transparent 55%);
+    pointer-events:none;
+  }
+  .final-inner{position:relative;z-index:1}
+  .final h2{
+    font-family:'Anton',sans-serif;text-transform:uppercase;
+    font-size:clamp(42px,7.5vw,108px);line-height:.88;letter-spacing:-.005em;
+    margin:0 0 18px;text-wrap:balance;
+  }
+  .final h2 .y{background:var(--hi);color:var(--ink);padding:0 .08em}
+  .final h2 .em{color:var(--red)}
+  .final p{color:#c8c1ad;max-width:48ch;margin:0 0 32px;font-size:16px;line-height:1.55}
+  .final .tickets .ticket{background:#fbf6e9}
+  .final .tickets .ticket::before, .final .tickets .ticket::after{background:var(--ink)}
+
+  /* ============================== FOOTER ============================== */
+  footer{
+    border-top:2px dashed #2a2620;
+    margin-top:64px;
+    padding:48px 0 100px;
+    background:var(--bg);
+  }
+  .foot-grid{display:grid;grid-template-columns:1fr;gap:32px}
+  @media(min-width:820px){.foot-grid{grid-template-columns:1.4fr 1fr 1fr}}
+  .foot-brand .brand{margin-bottom:14px}
+  .foot-brand p{color:var(--muted);font-size:13.5px;max-width:36ch;margin:0 0 14px;line-height:1.55}
+  .foot-col h5{font-family:'Anton',sans-serif;font-size:18px;letter-spacing:.05em;text-transform:uppercase;color:var(--hi);margin:0 0 14px}
+  .foot-col ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
+  .foot-col a{color:#d4cdb9;font-size:14px}
+  .foot-col a:hover{color:var(--hi)}
+  .foot-bottom{
+    margin-top:42px;padding-top:24px;border-top:1px dashed #2a2620;
+    display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;
+    color:var(--muted-2);font-size:11px;
+    font-family:'JetBrains Mono',monospace;letter-spacing:.16em;text-transform:uppercase;
+  }
+  .foot-bottom .sep{color:var(--red)}
+  .foot-receipt{
+    font-family:'JetBrains Mono',monospace;font-size:11px;line-height:1.65;color:var(--muted);background:#101010;border:1px dashed #2a2620;padding:14px;margin-top:14px;letter-spacing:.04em
+  }
+  .foot-receipt .row{display:flex;justify-content:space-between;gap:12px}
+  .foot-receipt .row .v{color:var(--text)}
+  .foot-receipt hr{border:0;border-top:1px dashed #2a2620;margin:8px 0}
+
+  /* ============================== STICKY BOTTOM (mobile) ============================== */
+  .sticky-cta{
+    position:fixed;left:0;right:0;bottom:0;z-index:70;
+    padding:10px 10px calc(10px + env(safe-area-inset-bottom));
+    background:rgba(12,12,13,.92);
+    backdrop-filter:blur(14px) saturate(140%);
+    border-top:2px solid var(--hi);
+    display:flex;gap:8px;
+    transform: translateY(120%);
+    transition: transform .35s cubic-bezier(.2,.7,.2,1);
+    will-change: transform;
+  }
+  .sticky-cta.is-visible{transform: translateY(0)}
+  .sticky-cta .btn{flex:1;padding:14px 14px;font-size:13.5px;letter-spacing:.04em;box-shadow:none}
+  @media(min-width:900px){.sticky-cta{display:none}body{padding-bottom:0}}
+  @media (prefers-reduced-motion: reduce){.sticky-cta{transition:none}}
+
+  /* ============================== SHOP MODAL ============================== */
+  .shop-modal{
+    position:fixed;inset:0;z-index:200;
+    display:flex;align-items:center;justify-content:center;
+    padding:18px;
+    visibility:hidden;
+    pointer-events:none;
+  }
+  .shop-modal.open{visibility:visible;pointer-events:auto}
+
+  .shop-modal__backdrop{
+    position:absolute;inset:0;
+    background:rgba(8,8,9,.78);
+    backdrop-filter: blur(10px) saturate(140%);
+    -webkit-backdrop-filter: blur(10px) saturate(140%);
+    opacity:0;
+    transition: opacity .35s cubic-bezier(.2,.7,.2,1);
+  }
+  .shop-modal.open .shop-modal__backdrop{opacity:1}
+
+  .shop-modal__panel{
+    position:relative;
+    width:min(960px, 100%);
+    max-height: calc(100dvh - 36px);
+    overflow:auto;
+    background:var(--bg-2);
+    border:1.5px solid var(--line);
+    box-shadow: 0 30px 80px -20px rgba(0,0,0,.7), 0 0 0 1px rgba(255,214,10,.08);
+    padding:24px 20px 22px;
+    opacity:0;
+    transform: translateY(24px) scale(.97);
+    transition: opacity .35s cubic-bezier(.2,.7,.2,1), transform .42s cubic-bezier(.2,.85,.25,1.02);
+  }
+  @media(min-width:760px){.shop-modal__panel{padding:36px 36px 32px}}
+  .shop-modal.open .shop-modal__panel{
+    opacity:1;
+    transform: translateY(0) scale(1);
+  }
+  @media (prefers-reduced-motion: reduce){
+    .shop-modal__backdrop, .shop-modal__panel{transition:none}
+    .shop-modal__panel{transform:none}
+  }
+
+  .shop-modal__panel::before{
+    content:"";display:block;height:3px;width:64px;
+    background:repeating-linear-gradient(90deg, var(--hi) 0 6px, transparent 6px 12px);
+    margin-bottom:14px;
+  }
+
+  .shop-modal__head{
+    display:flex;align-items:start;justify-content:space-between;gap:14px;
+    padding-bottom:18px;margin-bottom:22px;
+    border-bottom:1px dashed #2a2620;
+  }
+  .shop-modal__title{
+    font-family:'Anton',sans-serif;text-transform:uppercase;
+    font-size:clamp(26px,4vw,38px);line-height:.95;letter-spacing:-.005em;margin:0;
+  }
+  .shop-modal__title .y{background:var(--hi);color:var(--ink);padding:0 .08em}
+  .shop-modal__sub{
+    color:var(--muted);font-size:13.5px;line-height:1.5;margin:6px 0 0;
+    max-width:46ch;
+  }
+  .shop-modal__close{
+    flex:0 0 auto;
+    width:38px;height:38px;border-radius:0;
+    border:1.5px solid var(--line);
+    color:var(--text);
+    display:flex;align-items:center;justify-content:center;
+    transition: background .15s, border-color .15s, transform .15s, color .15s;
+  }
+  .shop-modal__close:hover{background:var(--red);border-color:var(--red);color:#fff;transform:rotate(90deg)}
+
+  .shop-modal__grid{
+    display:grid;gap:12px;
+    grid-template-columns:repeat(1,1fr);
+  }
+  @media(min-width:560px){.shop-modal__grid{grid-template-columns:repeat(2,1fr);gap:16px}}
+  @media(min-width:900px){.shop-modal__grid{grid-template-columns:repeat(4,1fr)}}
+
+  /* stagger items inside modal */
+  .shop-modal__grid .ticket{
+    opacity:0;transform:translateY(14px);
+    transition: opacity .4s ease, transform .45s cubic-bezier(.2,.7,.2,1);
+  }
+  .shop-modal.open .shop-modal__grid .ticket{opacity:1;transform:none}
+  .shop-modal.open .shop-modal__grid .ticket:nth-child(1){transition-delay:.08s}
+  .shop-modal.open .shop-modal__grid .ticket:nth-child(2){transition-delay:.16s}
+  .shop-modal.open .shop-modal__grid .ticket:nth-child(3){transition-delay:.24s}
+  .shop-modal.open .shop-modal__grid .ticket:nth-child(4){transition-delay:.32s}
+  @media (prefers-reduced-motion: reduce){
+    .shop-modal__grid .ticket{opacity:1;transform:none;transition:none}
+  }
+  .shop-modal__grid .ticket::before,
+  .shop-modal__grid .ticket::after{background:var(--bg-2)}
+
+  .shop-modal__foot{
+    margin-top:22px;padding-top:18px;border-top:1px dashed #2a2620;
+    display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;
+    color:var(--muted-2);font-size:11px;
+    font-family:'JetBrains Mono',monospace;letter-spacing:.16em;text-transform:uppercase;
+  }
+  .shop-modal__foot .dot{width:6px;height:6px;border-radius:50%;background:var(--hi);display:inline-block;animation: blink 1.6s ease-in-out infinite}
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+
+  /* lock body scroll when modal open */
+  body.shop-modal-open{overflow:hidden}
+
+  /* small helpers */
+  /* removed by request: free sticker, lot labels, form header */
+  .sticker.s2{display:none !important}
+  .polaroid .lot{display:none !important}
+  .item .lot{display:none !important}
+  .specsheet-head{display:none !important}
+  .specsheet::before{display:none}
+  .specsheet > .spec-list:first-of-type{margin-top:4px}
+
+  /* ============================== V3: HERO CHIPS ============================== */
+  .hero-meta-row{display:none}
+  .hero-chip{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:8px 12px;
+    background:rgba(20,19,18,.7);
+    border:1px solid var(--line-2);
+    color:#cfc9b9;
+    font-family:'JetBrains Mono',monospace;
+    font-size:11.5px;letter-spacing:.04em;
+  }
+  .hero-chip b{color:var(--text);font-weight:700;letter-spacing:.02em}
+  .hero-chip .d{width:7px;height:7px;background:var(--red);border-radius:50%;flex:0 0 auto}
+  .hero-chip .d.g{background:var(--wa)}
+  .hero-chip .star{color:var(--hi);font-weight:700;letter-spacing:.02em}
+
+  /* ============================== V3: TRUST STRIP ============================== */
+  .trust-strip{
+    background:linear-gradient(180deg, #0f0f10, #0c0c0d);
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+    padding:18px 0;
+  }
+  .trust-row{
+    display:grid;grid-template-columns:repeat(2,1fr);gap:14px;
+  }
+  @media (min-width:760px){.trust-row{grid-template-columns:repeat(4,1fr);gap:18px}}
+  .trust-item{
+    display:flex;align-items:center;gap:12px;
+    color:var(--muted);
+    font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;line-height:1.5;
+    padding:2px 0;
+  }
+  .trust-item svg{color:var(--hi);flex:0 0 auto}
+  .trust-item b{color:var(--text);font-weight:700;letter-spacing:.04em;text-transform:none;font-size:11.5px;font-family:'DM Sans',sans-serif}
+
+  /* ============================== V3: TESTIMONIALS ============================== */
+  .section-tight{padding:54px 0}
+  @media (min-width:900px){.section-tight{padding:80px 0}}
+  .testi-head{
+    display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:30px;flex-wrap:wrap
+  }
+  .testi-meta{text-align:right}
+  .big-rating{display:flex;align-items:center;gap:10px;justify-content:flex-end}
+  .big-rating .num{
+    font-family:'Anton',sans-serif;font-size:52px;line-height:.95;color:var(--hi);letter-spacing:-.01em;
+  }
+  .big-rating .stars{color:var(--hi);font-size:18px;letter-spacing:.06em}
+  .rating-foot{
+    color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;margin-top:4px
+  }
+  .testi-grid{
+    display:grid;grid-template-columns:1fr;gap:14px;
+  }
+  @media(min-width:680px){.testi-grid{grid-template-columns:repeat(2,1fr);gap:16px}}
+  @media(min-width:1080px){.testi-grid{grid-template-columns:repeat(4,1fr)}}
+  .testi-card{
+    background:var(--bg-2);border:1.5px solid var(--line);
+    padding:20px 18px;
+    display:flex;flex-direction:column;gap:14px;
+    transition: border-color .2s, transform .15s;
+  }
+  .testi-card:hover{border-color:#544c40;transform:translateY(-2px)}
+  .testi-stars{color:var(--hi);font-size:15px;letter-spacing:.08em;line-height:1}
+  .testi-body{
+    color:#d4cdb9;font-size:13.5px;line-height:1.55;margin:0;flex:1;
+    font-style:italic;
+  }
+  .testi-foot{display:flex;align-items:center;gap:10px}
+  .testi-foot .avatar{
+    width:36px;height:36px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Anton',sans-serif;font-size:16px;color:#fff;letter-spacing:.02em;
+    flex:0 0 auto;
+  }
+  .testi-name{font-size:13px;font-weight:700;color:var(--text);line-height:1.2}
+  .testi-src{
+    font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:3px;
+  }
+
+  /* ============================== V3: BUY BUTTON ALWAYS VISIBLE ============================== */
+  .item .buy{
+    position:relative !important;
+    bottom:auto !important;left:auto !important;right:auto !important;
+    transition:background .2s, color .2s;
+  }
+  .item .buy:hover{background:var(--red);color:#fff}
+
+  /* ============================== V3: GALLERY REDUCED ============================== */
+  .item.g-5, .item.g-6, .item.g-7{display:none}
+  @media (min-width:680px){
+    .g-1{grid-column: span 3}
+    .g-2{grid-column: span 3}
+    .g-3{grid-column: span 3}
+    .g-4{grid-column: span 3}
+  }
+
+  /* ============================== V3: FAQ ============================== */
+  .faq-list{display:flex;flex-direction:column;gap:10px;max-width:880px;margin:0 auto}
+  .faq-item{
+    background:var(--bg-2);border:1.5px solid var(--line);
+    transition:border-color .2s, background .2s;
+  }
+  .faq-item[open]{border-color:#4a4339;background:#1c1a16}
+  .faq-item summary{
+    list-style:none;cursor:pointer;
+    padding:18px 20px;
+    display:flex;align-items:center;justify-content:space-between;gap:16px;
+    user-select:none;
+    transition:color .15s;
+  }
+  .faq-item summary::-webkit-details-marker{display:none}
+  .faq-item summary:hover{color:var(--hi)}
+  .faq-item .q{
+    font-family:'DM Sans',sans-serif;font-weight:700;font-size:15px;letter-spacing:-.005em;line-height:1.35;
+    color:var(--text);
+  }
+  .faq-item[open] .q{color:var(--hi)}
+  .faq-item .ic{
+    width:30px;height:30px;border-radius:50%;border:1.5px solid var(--line-2);
+    display:flex;align-items:center;justify-content:center;color:var(--muted);
+    transition:transform .25s, border-color .15s, color .15s;
+    flex:0 0 auto;
+  }
+  .faq-item[open] .ic{transform:rotate(180deg);border-color:var(--hi);color:var(--hi)}
+  .faq-item .faq-a{
+    padding:0 20px 20px;
+    color:#bbb39e;font-size:13.5px;line-height:1.6;
+    max-width:60ch;
+  }
+
+  /* ============================== V3: MOBILE HAMBURGER ============================== */
+  .nav-hamburger{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:38px;height:38px;border:1.5px solid var(--line-2);
+    color:var(--text);background:transparent;
+    transition:background .15s, border-color .15s;
+  }
+  .nav-hamburger:hover{background:rgba(20,19,18,.6);border-color:#4a4339}
+  .nav-hamburger svg{transition: transform .25s ease}
+  body.menu-open .nav-hamburger svg{transform:rotate(90deg)}
+  @media(min-width:900px){.nav-hamburger{display:none}}
+
+  .mobile-menu{
+    position:fixed;inset:0;z-index:90;
+    display:flex;flex-direction:column;
+    background:var(--bg);
+    transform: translateY(-100%);
+    transition: transform .35s cubic-bezier(.2,.7,.2,1);
+    pointer-events:none;
+    padding-top:calc(64px + env(safe-area-inset-top));
+  }
+  body.menu-open .mobile-menu{transform:translateY(0);pointer-events:auto}
+  .mobile-menu nav{
+    flex:1;padding:30px 24px;overflow:auto;
+  }
+  .mobile-menu a{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:18px 0;border-bottom:1px dashed #2a2620;
+    font-family:'Anton',sans-serif;font-size:28px;text-transform:uppercase;letter-spacing:.01em;line-height:1;color:var(--text);
+  }
+  .mobile-menu a:hover, .mobile-menu a:active{color:var(--hi)}
+  .mobile-menu a .arr{color:var(--red);font-size:18px}
+  .mobile-menu .lang-mobile{
+    margin-top:24px;padding:18px 0;border-top:2px dashed #2a2620;
+    display:flex;align-items:center;justify-content:space-between;
+    font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);
+  }
+  .mobile-menu-cta{
+    padding:20px 24px calc(20px + env(safe-area-inset-bottom));
+    border-top:1px solid var(--line);
+    display:flex;flex-direction:column;gap:10px;
+    background:var(--bg-2);
+  }
+  body.menu-open{overflow:hidden}
+
+  /* ============================== V3: SIMPLIFIED MOBILE STICKY CTA ============================== */
+  /* When V3 layout, prefer single primary button on phone */
+  @media (max-width:639px){
+    .sticky-cta .btn-wa{display:none}
+    .sticky-cta .btn-red{flex:1}
+  }
+
+  /* ============================== V3: HIDE MARQUEES ON SMALL PHONE ============================== */
+  @media (max-width:480px){
+    .ribbon{display:none}
+    .topbar{font-size:10px}
+  }
+
+  /* ============================== V3: TONED-DOWN YELLOW ============================== */
+  /* Reduce overly-yellow contrast in some places */
+  .h-title .ride::after{opacity:.7}
+
+  /* small helpers (cont.) */
+  .label{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted-2);font-weight:700}
+  .row-end{display:flex;align-items:end;justify-content:space-between;gap:18px;flex-wrap:wrap}
+  .ink-pill{
+    display:inline-flex;align-items:center;gap:8px;
+    background:var(--ink);color:var(--hi);padding:5px 10px;
+    font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;
+  }
+
+</style>
+</head>
+<body>
+
+<!-- =============== STICKY HEADER GROUP =============== -->
+<div class="site-stick">
+
+<!-- =============== HI-VIS TICKER =============== -->
+<div class="topbar" aria-hidden="true">
+  <div class="topbar-track">
+    <span data-i18n-html="topbar_text">★ Gantungan Kunci Motor <em class="x">/</em> Custom Key Tag <em class="x">/</em> Aksesori Harian <em class="x">/</em> Est. Kichen Store <em class="x">/</em> Free Konsultasi via WA <em class="x">/</em> Ready to Ship <em class="x">/</em></span>
+    <span data-i18n-html="topbar_text" aria-hidden="true">★ Gantungan Kunci Motor <em class="x">/</em> Custom Key Tag <em class="x">/</em> Aksesori Harian <em class="x">/</em> Est. Kichen Store <em class="x">/</em> Free Konsultasi via WA <em class="x">/</em> Ready to Ship <em class="x">/</em></span>
+  </div>
+</div>
+
+<!-- =============== NAV =============== -->
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top" aria-label="KICHEN home">
+      <img class="brand-patch" src="assets/kichen-logo.png" alt="KCHN embroidered patch" />
+      <span class="brand-meta">
+        <span class="brand-name">Kichen Store</span>
+        <span class="brand-tag" data-i18n="brand_tag">Motorcycle Key Tags &amp; Small Accessories</span>
+      </span>
+    </a>
+    <nav class="nav-links">
+      <a href="#shop" data-i18n="nav_shop">Shop</a>
+      <a href="#cat" data-i18n="nav_catalog">Katalog</a>
+      <a href="#gallery" data-i18n="nav_products">Produk</a>
+      <a href="#spec" data-i18n="nav_why">Kenapa Kichen</a>
+      <a href="#ig" data-i18n="nav_instagram">Instagram</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang" role="group" aria-label="Language switcher">
+        <button type="button" data-lang="id" aria-pressed="true">ID</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <button class="nav-hamburger" type="button" id="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      </button>
+      <a class="btn btn-red nav-cta" href="https://api.whatsapp.com/send?phone=6289662527558&text=Halo%20@kichen.co%20Saya%20Mau%20Order%20atau%20tanya-tanya%20boleh?" target="_blank" rel="noopener">
+        <span data-i18n="nav_cta">Belanja Sekarang</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+</div><!-- /.site-stick -->
+
+<!-- =============== MOBILE MENU =============== -->
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <nav>
+    <a href="#shop" data-mobile-link><span data-i18n="nav_shop">Belanja</span> <span class="arr">→</span></a>
+    <a href="#gallery" data-mobile-link><span data-i18n="nav_products">Produk</span> <span class="arr">→</span></a>
+    <a href="#cat" data-mobile-link><span data-i18n="nav_catalog">Katalog</span> <span class="arr">→</span></a>
+    <a href="#spec" data-mobile-link><span data-i18n="nav_why">Kenapa Kichen</span> <span class="arr">→</span></a>
+    <a href="#testi" data-mobile-link><span data-i18n="nav_testi">Testimoni</span> <span class="arr">→</span></a>
+    <a href="#faq" data-mobile-link><span data-i18n="nav_faq">FAQ</span> <span class="arr">→</span></a>
+    <a href="#ig" data-mobile-link><span data-i18n="nav_instagram">Instagram</span> <span class="arr">→</span></a>
+  </nav>
+  <div class="mobile-menu-cta">
+    <a class="btn btn-red" href="#shop" data-shop-trigger data-mobile-link>
+      <span data-i18n="hero_cta_shop">Belanja Sekarang</span>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <a class="btn btn-wa" href="https://api.whatsapp.com/send?phone=6289662527558&text=Halo%20@kichen.co%20Saya%20Mau%20Order%20atau%20tanya-tanya%20boleh?" target="_blank" rel="noopener" data-mobile-link>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.91A10 10 0 0 0 4.13 18.36L3 22l3.74-.98A10 10 0 1 0 19.05 4.91Zm-7 16.2a8.3 8.3 0 0 1-4.23-1.16l-.3-.18-2.22.58.6-2.17-.2-.31a8.3 8.3 0 1 1 6.35 3.24Z"/></svg>
+      <span data-i18n="hero_cta_wa">Chat via WhatsApp</span>
+    </a>
+  </div>
+</div>
+
+<!-- =============== HERO =============== -->
+<section id="top" class="hero">
+  <div class="wrap hero-grid">
+    <div>
+
+      <h1 class="h-title" data-i18n-html="hero_title">
+        Buat <span class="ride">kuncimu</span><br/>
+        Punya <span class="em">Karakter.</span>
+      </h1>
+
+      <p class="h-sub" data-i18n-html="hero_sub">
+        <b>Kichen Store</b> menghadirkan gantungan kunci motor, key tag, dan aksesori kecil dengan desain simpel, stylish, dan nyaman digunakan setiap hari.
+      </p>
+
+      <div class="hero-meta-row">
+        <span class="hero-chip"><span class="d"></span> <b data-i18n="price_chip">Mulai Rp 25rb</b></span>
+        <span class="hero-chip"><span class="d g"></span> <b data-i18n="ship_chip">Free Shipping</b> <span data-i18n="ship_chip_sub">min. Rp 100rb</span></span>
+        <span class="hero-chip"><span class="star">★ 4.9</span> <span data-i18n="rating_chip">dari 500+ pembeli</span></span>
+      </div>
+      <div class="h-cta">
+        <a class="btn btn-red" href="#shop" data-shop-trigger>
+          <span data-i18n="hero_cta_shop">Belanja Sekarang</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="btn btn-wa" href="https://api.whatsapp.com/send?phone=6289662527558&text=Halo%20@kichen.co%20Saya%20Mau%20Order%20atau%20tanya-tanya%20boleh?" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.91A10 10 0 0 0 4.13 18.36L3 22l3.74-.98A10 10 0 1 0 19.05 4.91Zm-7 16.2a8.3 8.3 0 0 1-4.23-1.16l-.3-.18-2.22.58.6-2.17-.2-.31a8.3 8.3 0 1 1 6.35 3.24Zm4.55-6.22c-.25-.13-1.48-.73-1.7-.81-.23-.08-.4-.13-.56.13-.16.25-.64.81-.79.97-.15.17-.29.18-.54.06-.25-.13-1.06-.39-2.02-1.24-.74-.66-1.24-1.48-1.39-1.73-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.43.13-.15.17-.25.25-.42.08-.17.04-.32-.02-.45-.06-.13-.56-1.34-.77-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.45.06-.69.32-.25.25-.95.93-.95 2.27 0 1.34.97 2.63 1.11 2.81.13.18 1.92 2.93 4.66 4.11.65.28 1.16.45 1.55.58.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.83-1.28.23-.63.23-1.16.16-1.28-.07-.12-.24-.18-.5-.31Z"/></svg>
+          <span data-i18n="hero_cta_wa">Chat via WhatsApp</span>
+        </a>
+      </div>
+
+      <div class="h-strip" data-i18n-html="hero_strip">
+        <span><span class="dot"></span> <span class="b">1.200+</span> Riders served</span>
+        <span><span class="dot"></span> Pengiriman seluruh Indonesia</span>
+        <span><span class="dot"></span> Konsultasi <span class="b">gratis</span> via WA</span>
+      </div>
+    </div>
+
+    <div class="collage" aria-hidden="true">
+      <div class="polaroid p1">
+        <div class="lot">LOT 003 · Kawasexy</div>
+        <div class="pic-wrap"><div class="pic" style="background-image:url('assets/p1.png')"></div></div>
+        <div class="cap" data-i18n="cap_kawasexy">— buat si hijau ✺</div>
+      </div>
+      <div class="polaroid p2">
+        <div class="lot">LOT 027 · Track</div>
+        <div class="pic-wrap"><div class="pic" style="background-image:url('assets/p7.png')"></div></div>
+        <div class="cap" data-i18n="cap_track">race track use only</div>
+      </div>
+      <div class="polaroid p3">
+        <div class="lot">LOT 011 · RodaDua</div>
+        <div class="pic-wrap"><div class="pic" style="background-image:url('assets/p5.png')"></div></div>
+        <div class="cap" data-i18n="cap_red">Enamel Pin ✦</div>
+      </div>
+      <div class="polaroid p4">
+        <div class="lot">LOT 044 · Heartbeat</div>
+        <div class="pic-wrap"><div class="pic" style="background-image:url('assets/p6.png')"></div></div>
+        <div class="cap" data-i18n="cap_heartbeat">Enamel Pin</div>
+      </div>
+      <div class="sticker s1" data-i18n-html="sticker_new">
+        New Drop<br/><small>★ 2026 ★</small>
+      </div>
+      <div class="sticker s2" data-i18n-html="sticker_free">
+        <b>FREE</b>Sticker Pack
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== RIBBON =============== -->
+<div class="ribbon grain" aria-hidden="true">
+  <div class="ribbon-track">
+    <span data-i18n-html="ribbon_text">Custom Keychain <em class="x">✕</em> Gantungan Kunci Motor <em class="x">✕</em> Embroidered Key Tag <em class="star">✪</em> Enamel Pins <em class="x">✕</em> Aksesoris Motor <em class="x">✕</em> Daily Carry <em class="star">✪</em></span>
+    <span data-i18n-html="ribbon_text" aria-hidden="true">Custom Keychain <em class="x">✕</em> Gantungan Kunci Motor <em class="x">✕</em> Embroidered Key Tag <em class="star">✪</em> Enamel Pins <em class="x">✕</em> Aksesoris Motor <em class="x">✕</em> Daily Carry <em class="star">✪</em></span>
+  </div>
+</div>
+
+
+<!-- =============== TRUST BADGES =============== -->
+<div class="trust-strip">
+  <div class="wrap">
+    <div class="trust-row">
+      <div class="trust-item">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2 4 6v6c0 5 3.5 9 8 10 4.5-1 8-5 8-10V6l-8-4Z" stroke="currentColor" stroke-width="1.8"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span data-i18n-html="trust_verified">Verified Seller<br/><b>Shopee &middot; Tokopedia</b></span>
+      </div>
+      <div class="trust-item">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 7h13v9H3zM16 10h4l1 3v3h-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="17" r="2" stroke="currentColor" stroke-width="1.8"/><circle cx="17" cy="17" r="2" stroke="currentColor" stroke-width="1.8"/></svg>
+        <span data-i18n-html="trust_ship">Pengiriman Cepat<br/><b>JNE &middot; J&T &middot; SiCepat</b></span>
+      </div>
+      <div class="trust-item">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="18" height="13" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M3 10h18" stroke="currentColor" stroke-width="1.8"/></svg>
+        <span data-i18n-html="trust_pay">Bayar Mudah<br/><b>QRIS &middot; e-Wallet &middot; Transfer</b></span>
+      </div>
+      <div class="trust-item">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" stroke="currentColor" stroke-width="1.8"/><path d="M12 8v4l3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <span data-i18n-html="trust_reply">Balas Cepat<br/><b>WA dalam jam kerja</b></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- =============== TESTIMONIALS =============== -->
+<section id="testi" class="section section-tight">
+  <div class="wrap">
+    <div class="testi-head">
+      <div>
+        <span class="sec-stamp"><span class="dot"></span> <span data-i18n-html="testi_stamp">§ Testimoni Pembeli</span></span>
+        <h2 class="sec-title" data-i18n-html="testi_title">Apa Kata <span class="em">Para Rider.</span></h2>
+      </div>
+      <div class="testi-meta">
+        <div class="big-rating">
+          <span class="num">4.9</span>
+          <span class="stars">★★★★★</span>
+        </div>
+        <div class="rating-foot" data-i18n="rating_foot">dari 500+ ulasan di marketplace</div>
+      </div>
+    </div>
+
+    <div class="testi-grid">
+      <article class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-body" data-i18n="t1_body">"Bahannya tebel, jahitan rapih, ringan banget. Udah dipake 3 bulan masih kayak baru. Worth it."</p>
+        <div class="testi-foot">
+          <span class="avatar" style="background:linear-gradient(135deg,#e63329,#ff7560)">R</span>
+          <div>
+            <div class="testi-name" data-i18n="t1_name">Reza · Jakarta</div>
+            <div class="testi-src">Shopee · Verified</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-body" data-i18n="t2_body">"Suka banget sama detail bordirnya. Pas dipasang di kunci jadi keliatan beda. Pengiriman juga cepet."</p>
+        <div class="testi-foot">
+          <span class="avatar" style="background:linear-gradient(135deg,#ffd60a,#ffa500);color:#161410">F</span>
+          <div>
+            <div class="testi-name" data-i18n="t2_name">Faisal · Bandung</div>
+            <div class="testi-src">Tokopedia · Verified</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-body" data-i18n="t3_body">"Beli buat hadiah temen, dia suka banget. Packagingnya rapi, ada bonus stiker juga."</p>
+        <div class="testi-foot">
+          <span class="avatar" style="background:linear-gradient(135deg,#42b549,#75c882)">D</span>
+          <div>
+            <div class="testi-name" data-i18n="t3_name">Dinda · Surabaya</div>
+            <div class="testi-src">TikTok Shop · Verified</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-body" data-i18n="t4_body">"Owner-nya ramah, sabar jawabin pertanyaan custom. Hasilnya sesuai ekspektasi, recommended!"</p>
+        <div class="testi-foot">
+          <span class="avatar" style="background:linear-gradient(135deg,#4f5bd5,#7a82dc)">A</span>
+          <div>
+            <div class="testi-name" data-i18n="t4_name">Aldi · Yogyakarta</div>
+            <div class="testi-src">WhatsApp · Custom Order</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<!-- =============== QUICK SHOP TICKETS =============== -->
+<section id="shop" class="section">
+  <div class="wrap">
+    <div class="row-end">
+      <div>
+        <span class="sec-stamp" data-i18n-html="shop_stamp"><span class="dot"></span> § 01 / Quick Shop</span>
+        <h2 class="sec-title" data-i18n-html="shop_title">Pilih Tempat Belanja <span class="y">Favoritmu.</span></h2>
+        <p class="sec-desc" data-i18n="shop_desc">Pesan produk Kichen Store dengan mudah melalui marketplace pilihanmu atau langsung tanya via WhatsApp.</p>
+      </div>
+      <span class="ink-pill" data-i18n-html="shop_pill"><span style="width:6px;height:6px;background:var(--red);display:inline-block"></span> 4 cara belanja</span>
+    </div>
+
+    <div class="tickets" style="margin-top:28px">
+      <a class="ticket grain" data-b="shopee" href="https://shopee.co.id/kichen.co" target="_blank" rel="noopener">
+        <div class="head"><span data-i18n="ticket01_h">No. 01 · Marketplace</span><span class="stamp" data-i18n="stamp_orange">ORANGE</span></div>
+        <div class="name">Shopee</div>
+        <div class="url">shopee.co.id/kichen.co</div>
+        <div class="foot"><span class="go" data-i18n="ticket_open_store_1">Buka Toko →</span><span class="ar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+      </a>
+      <a class="ticket grain" data-b="toko" href="https://www.tokopedia.com/kichenstore" target="_blank" rel="noopener">
+        <div class="head"><span data-i18n="ticket02_h">No. 02 · Marketplace</span><span class="stamp" data-i18n="stamp_green">HIJAU</span></div>
+        <div class="name">Tokopedia</div>
+        <div class="url">tokopedia.com/kichenstore</div>
+        <div class="foot"><span class="go" data-i18n="ticket_open_store_2">Buka Toko →</span><span class="ar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+      </a>
+      <a class="ticket grain" data-b="tiktok" href="https://vt.tiktok.com/ZSxMKqcJt/?page=Mall" target="_blank" rel="noopener">
+        <div class="head"><span data-i18n="ticket03_h">No. 03 · Live Shop</span><span class="stamp" data-i18n="stamp_viral">VIRAL</span></div>
+        <div class="name">TikTok Shop</div>
+        <div class="url">@kichen.co · Mall</div>
+        <div class="foot"><span class="go" data-i18n="ticket_watch_live">Tonton Live →</span><span class="ar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+      </a>
+      <a class="ticket grain" data-b="wa" href="https://api.whatsapp.com/send?phone=6289662527558&text=Halo%20@kichen.co%20Saya%20Mau%20Order%20atau%20tanya-tanya%20boleh?" target="_blank" rel="noopener">
+        <div class="head"><span data-i18n="ticket04_h">No. 04 · Direct</span><span class="stamp" data-i18n="stamp_chat">CHAT</span></div>
+        <div class="name">WhatsApp</div>
+        <div class="url">+62 896-6252-7558</div>
+        <div class="foot"><span class="go" data-i18n="ticket_chat_now">Chat Sekarang →</span><span class="ar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- =============== GALLERY =============== -->
+<section id="gallery" class="section">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="sec-stamp" data-i18n-html="gallery_stamp"><span class="dot"></span> § 04 / Featured Drops</span>
+        <h2 class="sec-title" data-i18n-html="gallery_title">Produk <span class="em">Pilihan.</span></h2>
+        <p class="sec-desc" data-i18n="gallery_desc">Temukan key tag dan aksesori kecil favoritmu untuk melengkapi gaya harian.</p>
+      </div>
+      <a class="btn btn-ghost" href="https://shopee.co.id/kichen.co" target="_blank" rel="noopener">
+        <span data-i18n="see_full_catalog">Lihat Semua Produk</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+
+    <div class="gallery">
+      <article class="item g-1">
+        <div class="pic" style="background-image:url('assets/p1.png')">
+          <span class="lot">Lot 003</span>
+          <span class="tag" data-i18n="tag_best">Best Seller</span>
+        </div>
+        <div class="info">
+          <div>
+            <p data-i18n="g1_type">Embroidered · Key Tag</p>
+            <h4 data-i18n="g1_name">Kawasexy Series</h4>
+          </div>
+          <span class="price"><small data-i18n="price_from">Mulai</small>Rp 25.000</span>
+        </div>
+        <a class="buy" href="https://shopee.co.id/kichen.co" target="_blank" rel="noopener" data-i18n="buy_order_now">Order Sekarang →</a>
+      </article>
+
+      <article class="item g-2">
+        <div class="pic" style="background-image:url('assets/p5.png')">
+          <span class="lot">Lot 011</span>
+          <span class="tag hi" data-i18n="tag_new">New</span>
+        </div>
+        <div class="info">
+          <div>
+            <p data-i18n="g2_type">Embroidered · Key Tag</p>
+            <h4 data-i18n="g2_name">RodaDua Patch</h4>
+          </div>
+          <span class="price"><small data-i18n="price_from2">Mulai</small>Rp 28.000</span>
+        </div>
+        <a class="buy" href="https://www.tokopedia.com/kichenstore" target="_blank" rel="noopener" data-i18n="buy_order_now_2">Order Sekarang →</a>
+      </article>
+
+      <article class="item g-3">
+        <div class="pic" style="background-image:url('assets/p6.png')">
+          <span class="lot">Lot 044</span>
+          <span class="tag dk" data-i18n="tag_restock">Restock</span>
+        </div>
+        <div class="info">
+          <div>
+            <p data-i18n="g3_type">Embroidered</p>
+            <h4 data-i18n="g3_name">Heartbeat</h4>
+          </div>
+          <span class="price"><small data-i18n="price_from3">Mulai</small>Rp 26.000</span>
+        </div>
+        <a class="buy" href="https://vt.tiktok.com/ZSxMKqcJt/?page=Mall" target="_blank" rel="noopener" data-i18n="buy_order_3">Order →</a>
+      </article>
+
+      <article class="item g-4">
+        <div class="pic" style="background-image:url('assets/p7.png')">
+          <span class="lot">Lot 027</span>
+          <span class="tag" data-i18n="tag_limited">Limited</span>
+        </div>
+        <div class="info">
+          <div>
+            <p data-i18n="g4_type">Embroidered</p>
+            <h4 data-i18n="g4_name">Race Track</h4>
+          </div>
+          <span class="price"><small data-i18n="price_from4">Mulai</small>Rp 32.000</span>
+        </div>
+        <a class="buy" href="https://shopee.co.id/kichen.co" target="_blank" rel="noopener" data-i18n="buy_order_4">Order →</a>
+      </article>
+
+      <article class="item g-5">
+        <div class="pic" style="background-image:url('assets/p2.png')">
+          <span class="lot">Lot 060</span>
+          <span class="tag hi" data-i18n="tag_pindrop">Pin Drop</span>
+        </div>
+        <div class="info">
+          <div>
+            <p data-i18n="g5_type">Hard Enamel · Pin</p>
+            <h4 data-i18n="g5_name">Bottle Cap</h4>
+          </div>
+          <span class="price"><small data-i18n="price_from5">Mulai</small>Rp 35.000</span>
+        </div>
+        <a class="buy" href="https://www.tokopedia.com/kichenstore" target="_blank" rel="noopener" data-i18n="buy_order_5">Order →</a>
+      </article>
+
+      <article class="item g-6">
+        <div class="pic" style="background-image:url('assets/p9.png')">
+          <span class="lot">Lot 082</span>
+          <span class="tag dk" data-i18n="tag_collector">Collector</span>
+        </div>
+        <div class="info">
+          <div>
+            <p data-i18n="g6_type">Soft Enamel · Pin</p>
+            <h4 data-i18n="g6_name">Fire Spirit</h4>
+          </div>
+          <span class="price"><small data-i18n="price_from6">Mulai</small>Rp 38.000</span>
+        </div>
+        <a class="buy" href="https://www.tokopedia.com/kichenstore" target="_blank" rel="noopener" data-i18n="buy_order_now_6">Order Sekarang →</a>
+      </article>
+
+      <article class="item g-7">
+        <div class="pic" style="background-image:url('assets/p0.png')">
+          <span class="lot">Lot 099</span>
+          <span class="tag" data-i18n="tag_gift">Gift Pick</span>
+        </div>
+        <div class="info">
+          <div>
+            <p data-i18n="g7_type">Soft Enamel · Pin</p>
+            <h4 data-i18n="g7_name">Mood Cloud</h4>
+          </div>
+          <span class="price"><small data-i18n="price_from7">Mulai</small>Rp 30.000</span>
+        </div>
+        <a class="buy" href="https://api.whatsapp.com/send?phone=6289662527558&text=Halo%20@kichen.co%20Saya%20Mau%20Order%20atau%20tanya-tanya%20boleh?" target="_blank" rel="noopener" data-i18n="buy_ask_stock">Tanya Stok via WA →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =============== CATEGORIES =============== -->
+<section id="cat" class="section">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="sec-stamp" data-i18n-html="cat_stamp"><span class="dot"></span> § 02 / Katalog</span>
+        <h2 class="sec-title" data-i18n-html="cat_title">Aksesori Kecil,<br/>Karakter <span class="em">Besar.</span></h2>
+      </div>
+      <p class="sec-desc" data-i18n="cat_desc">Dari key tag motor sampai pin koleksi — semua produk Kichen Store dirancang untuk melengkapi gaya harianmu.</p>
+    </div>
+
+    <div class="stickers-row">
+      <article class="pcard">
+        <div class="lot"><span>SERI 01 / KEY-TAG</span><span class="red">●</span></div>
+        <div class="seal" data-i18n-html="seal_most_wanted">MOST<br/>WANTED</div>
+        <h3 data-i18n-html="cat1_h">Motorcycle<br/>Key <span class="y">Tags</span></h3>
+        <p data-i18n="cat1_p">Key tag bergaya untuk rider yang ingin tampil lebih personal sampai ke detail terkecil.</p>
+        <div class="footing"><span data-i18n="see_series">Lihat seri</span><span class="arr">→</span></div>
+      </article>
+      <article class="pcard">
+        <div class="lot"><span>SERI 02 / CUSTOM</span><span class="red">●</span></div>
+        <h3 data-i18n-html="cat2_h">Custom<br/>Keychains</h3>
+        <p data-i18n="cat2_p">Gantungan kunci simpel dengan karakter unik untuk penggunaan harian.</p>
+        <div class="footing"><span data-i18n="consult_wa">Konsultasi WA</span><span class="arr">→</span></div>
+      </article>
+      <article class="pcard">
+        <div class="lot"><span>SERI 03 / DAILY</span><span class="red">●</span></div>
+        <h3 data-i18n-html="cat3_h">Small Daily<br/>Accessories</h3>
+        <p data-i18n="cat3_p">Aksesori kecil yang praktis, ringan, dan mudah dibawa ke mana saja.</p>
+        <div class="footing"><span data-i18n="see_series_3">Lihat seri</span><span class="arr">→</span></div>
+      </article>
+      <article class="pcard">
+        <div class="lot"><span>SERI 04 / COLLECT</span><span class="red">●</span></div>
+        <div class="seal" data-i18n-html="seal_limited">LIMITED<br/>DROP</div>
+        <h3 data-i18n-html="cat4_h">Gift &<br/>Collectible <span class="y">Items</span></h3>
+        <p data-i18n="cat4_p">Pilihan menarik untuk hadiah, koleksi, atau pelengkap gaya harian.</p>
+        <div class="footing"><span data-i18n="see_series_4">Lihat seri</span><span class="arr">→</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =============== SPEC SHEET =============== -->
+<section id="spec" class="section cream grain">
+  <div class="wrap">
+    <div class="row-end" style="margin-bottom:24px">
+      <div>
+        <span class="sec-stamp" data-i18n-html="spec_stamp"><span class="dot"></span> § 03 / Spec Sheet</span>
+        <h2 class="sec-title" data-i18n-html="spec_title">Kenapa Pilih <span class="y">Kichen Store?</span></h2>
+        <p class="sec-desc" data-i18n="spec_desc">Detail kecil, dampak besar untuk gaya harianmu.</p>
+      </div>
+    </div>
+
+    <div class="specsheet">
+      <div class="specsheet-head">
+        <h2>FORM <span class="y">— /SP-2026</span></h2>
+        <div class="no">DOC · 2026/04/REV·01</div>
+      </div>
+
+      <div class="spec-list">
+        <div class="spec-row">
+          <span class="nu">01</span>
+          <div>
+            <h4 class="t" data-i18n="spec1_h">Desain stylish dengan sentuhan lifestyle motor</h4>
+            <p class="d" data-i18n="spec1_p">Aksesoris dengan vibe motor & streetwear, dirancang untuk dipakai bukan dipajang.</p>
+          </div>
+          <span class="ck"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="spec-row">
+          <span class="nu">02</span>
+          <div>
+            <h4 class="t" data-i18n="spec2_h">Ringkas, praktis, dan nyaman digunakan setiap hari</h4>
+            <p class="d" data-i18n="spec2_p">Ringan, muat di saku, dan dirancang biar nggak nyangkut di celana atau jaket.</p>
+          </div>
+          <span class="ck"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="spec-row">
+          <span class="nu">03</span>
+          <div>
+            <h4 class="t" data-i18n="spec3_h">Cocok untuk diri sendiri, komunitas, atau hadiah</h4>
+            <p class="d" data-i18n="spec3_p">Packaging rapi, gift-ready. Kasih ke temen, gebetan, atau diri sendiri — sama oke-nya.</p>
+          </div>
+          <span class="ck"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="spec-row">
+          <span class="nu">04</span>
+          <div>
+            <h4 class="t" data-i18n="spec4_h">Mudah dipesan melalui marketplace dan WhatsApp</h4>
+            <p class="d" data-i18n="spec4_p">Lewat Shopee, Tokopedia, TikTok Shop, atau langsung DM kami di WhatsApp.</p>
+          </div>
+          <span class="ck"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </div>
+
+      <div class="specsheet-foot">
+        <span data-i18n="spec_approved">Approved by · Tim Kichen Store</span>
+        <div class="stamp-circle" data-i18n-html="spec_qc">QC<br/>PASSED</div>
+        <span>SKU · KCHN-2026</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== INSTAGRAM =============== -->
+<section id="ig" class="section">
+  <div class="wrap">
+    <div class="insta-block grain">
+      <div>
+        <div class="insta-handle">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="#fff"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm5.25-2.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z"/></svg>
+          @kichen.co
+        </div>
+        <h2 data-i18n-html="ig_title">Lihat Update<br/>Terbaru <span class="y">Kami.</span></h2>
+        <p data-i18n="ig_desc">Ikuti Instagram @kichen.co untuk melihat produk terbaru, inspirasi penggunaan, dan update promo dari Kichen Store.</p>
+        <a class="btn btn-insta" href="https://www.instagram.com/kichen.co/" target="_blank" rel="noopener">
+          <span data-i18n="ig_cta">Kunjungi Instagram</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+      <div class="ig-grid">
+        <div class="ig" style="background-image:url('assets/p1.png')"><span class="heart">♡ 487</span></div>
+        <div class="ig" style="background-image:url('assets/p5.png')"><span class="heart">♡ 312</span></div>
+        <div class="ig" style="background-image:url('assets/p9.png')"><span class="heart">♡ 218</span></div>
+        <div class="ig" style="background-image:url('assets/p4.png')"><span class="heart">♡ 154</span></div>
+        <div class="ig" style="background-image:url('assets/p3.png')"><span class="heart">♡ 196</span></div>
+        <div class="ig" style="background-image:url('assets/p8.png')"><span class="heart">♡ 421</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- =============== FAQ =============== -->
+<section id="faq" class="section">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="sec-stamp"><span class="dot"></span> <span data-i18n-html="faq_stamp">§ 05 / Pertanyaan</span></span>
+        <h2 class="sec-title" data-i18n-html="faq_title">Sering <span class="em">Ditanya.</span></h2>
+        <p class="sec-desc" data-i18n="faq_desc">Belum nemu jawaban? Langsung chat kami di WhatsApp.</p>
+      </div>
+    </div>
+
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>
+          <span class="q" data-i18n="faq1_q">Berapa lama waktu pengiriman?</span>
+          <span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </summary>
+        <div class="faq-a" data-i18n="faq1_a">Estimasi 1–3 hari untuk Jabodetabek, 2–5 hari untuk luar kota. Kami kirim setiap hari kerja melalui JNE, J&T, atau SiCepat sesuai pilihanmu di marketplace.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span class="q" data-i18n="faq2_q">Bisa pesan custom nama atau logo?</span>
+          <span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </summary>
+        <div class="faq-a" data-i18n="faq2_a">Bisa banget! Untuk request nama, plat motor, atau logo komunitas, langsung chat via WhatsApp untuk konsultasi desain. MOQ custom mulai dari 5 pcs.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span class="q" data-i18n="faq3_q">Bahan bordirnya tahan lama tidak?</span>
+          <span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </summary>
+        <div class="faq-a" data-i18n="faq3_a">Bahan canvas premium dengan jahitan rapat. Tahan air ringan, anti pudar, dan kuat untuk pemakaian harian. Hindari rendam air lama atau cuci dengan deterjen keras.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span class="q" data-i18n="faq4_q">Bisa pesan dalam jumlah banyak (bulk / reseller)?</span>
+          <span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </summary>
+        <div class="faq-a" data-i18n="faq4_a">Tersedia harga khusus untuk pembelian bulk/reseller mulai dari 20 pcs. Cocok untuk merchandise komunitas motor, gift corporate, atau side business. Info lengkap via WhatsApp.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span class="q" data-i18n="faq5_q">Kalau ada produk yang rusak atau tidak sesuai?</span>
+          <span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </summary>
+        <div class="faq-a" data-i18n="faq5_a">Kami QC ketat sebelum kirim. Kalau ada cacat produksi, langsung chat kami via WhatsApp dalam 3 hari setelah barang sampai untuk proses retur/tukar.</div>
+      </details>
+    </div>
+  </div>
+</section>
+<!-- =============== FINAL CTA =============== -->
+<section class="section">
+  <div class="wrap">
+    <div class="final grain">
+      <div class="final-inner">
+        <span class="ink-pill" style="margin-bottom:18px" data-i18n="final_pill">§ Final Stop</span>
+        <h2 data-i18n-html="final_title">Siap Bikin <span class="y">Kunci Kamu</span><br/>Lebih Berkarakter? <span class="em">↗</span></h2>
+        <p data-i18n="final_desc">Pilih produk favoritmu dan pesan dengan mudah melalui Shopee, Tokopedia, TikTok Shop, atau WhatsApp.</p>
+
+        <div class="tickets">
+          <a class="ticket" data-b="shopee" href="https://shopee.co.id/kichen.co" target="_blank" rel="noopener">
+            <div class="head"><span data-i18n="fticket01_h">No. 01</span><span class="stamp" data-i18n="stamp_orange2">ORANGE</span></div>
+            <div class="name">Shopee</div>
+            <div class="url">shopee.co.id/kichen.co</div>
+            <div class="foot"><span class="go" data-i18n="ft_order_1">Order →</span><span class="ar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+          </a>
+          <a class="ticket" data-b="toko" href="https://www.tokopedia.com/kichenstore" target="_blank" rel="noopener">
+            <div class="head"><span data-i18n="fticket02_h">No. 02</span><span class="stamp" data-i18n="stamp_green2">HIJAU</span></div>
+            <div class="name">Tokopedia</div>
+            <div class="url">tokopedia.com/kichenstore</div>
+            <div class="foot"><span class="go" data-i18n="ft_order_2">Order →</span><span class="ar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+          </a>
+          <a class="ticket" data-b="tiktok" href="https://vt.tiktok.com/ZSxMKqcJt/?page=Mall" target="_blank" rel="noopener">
+            <div class="head"><span data-i18n="fticket03_h">No. 03</span><span class="stamp" data-i18n="stamp_live">LIVE</span></div>
+            <div class="name">TikTok Shop</div>
+            <div class="url">@kichen.co · Mall</div>
+            <div class="foot"><span class="go" data-i18n="ft_order_3">Order →</span><span class="ar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+          </a>
+          <a class="ticket" data-b="wa" href="https://api.whatsapp.com/send?phone=6289662527558&text=Halo%20@kichen.co%20Saya%20Mau%20Order%20atau%20tanya-tanya%20boleh?" target="_blank" rel="noopener">
+            <div class="head"><span data-i18n="fticket04_h">No. 04</span><span class="stamp" data-i18n="stamp_chat2">CHAT</span></div>
+            <div class="name">WhatsApp</div>
+            <div class="url">+62 896-6252-7558</div>
+            <div class="foot"><span class="go" data-i18n="ft_chat">Chat →</span><span class="ar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== FOOTER =============== -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="#top">
+          <img class="brand-patch" src="assets/kichen-logo.png" alt="KCHN patch" />
+          <span class="brand-meta">
+            <span class="brand-name">Kichen Store</span>
+            <span class="brand-tag" data-i18n="brand_tag_2">Motorcycle Key Tags &amp; Small Accessories</span>
+          </span>
+        </a>
+        <p data-i18n="foot_brand_desc">Motorcycle Key Tags &amp; Small Accessories — dirancang untuk melengkapi gaya berkendara dan gaya harianmu.</p>
+        <div class="foot-receipt">
+          <!-- <div class="row"><span data-i18n="rcpt_no">NO. RECEIPT</span><span class="v">KCHN-2026-LP</span></div> -->
+          <div class="row"><span data-i18n="rcpt_workshop">WORKSHOP</span><span class="v">Indonesia 🇮🇩</span></div>
+          <div class="row"><span>WA</span><span class="v">+62 896-6252-7558</span></div>
+          <hr/>
+          <div class="row"><span>IG</span><span class="v">@kichen.co</span></div>
+        </div>
+      </div>
+
+      <div class="foot-col">
+        <h5 data-i18n="foot_buy">Beli</h5>
+        <ul>
+          <li><a href="https://shopee.co.id/kichen.co" target="_blank" rel="noopener">→ Shopee</a></li>
+          <li><a href="https://www.tokopedia.com/kichenstore" target="_blank" rel="noopener">→ Tokopedia</a></li>
+          <li><a href="https://vt.tiktok.com/ZSxMKqcJt/?page=Mall" target="_blank" rel="noopener">→ TikTok Shop</a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=6289662527558&text=Halo%20@kichen.co%20Saya%20Mau%20Order%20atau%20tanya-tanya%20boleh?" target="_blank" rel="noopener">→ WhatsApp</a></li>
+        </ul>
+      </div>
+
+      <div class="foot-col">
+        <h5 data-i18n="foot_connect">Connect</h5>
+        <ul>
+          <li><a href="https://www.instagram.com/kichen.co/" target="_blank" rel="noopener">→ <span data-i18n="ig_word">Instagram</span> @kichen.co</a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=6289662527558" target="_blank" rel="noopener">→ <span data-i18n="custom_order">Custom Order</span></a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=6289662527558" target="_blank" rel="noopener">→ <span data-i18n-html="bulk_reseller">Bulk &amp; Reseller</span></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <span data-i18n-html="copyright">© 2026 Kichen Store <span class="sep">·</span> All rights reserved</span>
+      <span data-i18n-html="foot_seo">custom keychain indonesia <span class="sep">·</span> gantungan kunci motor <span class="sep">·</span> aksesoris motor</span>
+    </div>
+  </div>
+</footer>
+
+<!-- =============== STICKY MOBILE =============== -->
+<div class="sticky-cta">
+  <a class="btn btn-red" href="#shop" data-shop-trigger>
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M3 6h2l2.5 11h11L21 8H7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="1.5" fill="currentColor"/><circle cx="18" cy="20" r="1.5" fill="currentColor"/></svg>
+    <span data-i18n="sticky_shop">Belanja</span>
+  </a>
+  <a class="btn btn-wa" href="https://api.whatsapp.com/send?phone=6289662527558&text=Halo%20@kichen.co%20Saya%20Mau%20Order%20atau%20tanya-tanya%20boleh?" target="_blank" rel="noopener">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.05 4.91A10 10 0 0 0 4.13 18.36L3 22l3.74-.98A10 10 0 1 0 19.05 4.91Zm-7 16.2a8.3 8.3 0 0 1-4.23-1.16l-.3-.18-2.22.58.6-2.17-.2-.31a8.3 8.3 0 1 1 6.35 3.24Z"/></svg>
+    <span data-i18n="sticky_wa">WhatsApp</span>
+  </a>
+</div>
+
+<script>
+/* ============================== TRANSLATIONS ============================== */
+const TRANSLATIONS = {
+  id: {
+    nav_testi:"Testimoni", nav_faq:"FAQ",
+    price_chip:"Mulai Rp 25rb", ship_chip:"Free Shipping", ship_chip_sub:"min. Rp 100rb",
+    rating_chip:"dari 500+ pembeli",
+
+    testi_stamp:`§ Testimoni Pembeli`,
+    testi_title:`Apa Kata <span class="em">Para Rider.</span>`,
+    rating_foot:"dari 500+ ulasan di marketplace",
+    t1_body:'"Bahannya tebel, jahitan rapih, ringan banget. Udah dipake 3 bulan masih kayak baru. Worth it."',
+    t1_name:"Reza · Jakarta",
+    t2_body:'"Suka banget sama detail bordirnya. Pas dipasang di kunci jadi keliatan beda. Pengiriman juga cepet."',
+    t2_name:"Faisal · Bandung",
+    t3_body:'"Beli buat hadiah temen, dia suka banget. Packagingnya rapi, ada bonus stiker juga."',
+    t3_name:"Dinda · Surabaya",
+    t4_body:'"Owner-nya ramah, sabar jawabin pertanyaan custom. Hasilnya sesuai ekspektasi, recommended!"',
+    t4_name:"Aldi · Yogyakarta",
+
+    trust_verified:`Verified Seller<br/><b>Shopee &middot; Tokopedia</b>`,
+    trust_ship:`Pengiriman Cepat<br/><b>JNE &middot; J&T &middot; SiCepat</b>`,
+    trust_pay:`Bayar Mudah<br/><b>QRIS &middot; e-Wallet &middot; Transfer</b>`,
+    trust_reply:`Balas Cepat<br/><b>WA dalam jam kerja</b>`,
+
+    faq_stamp:`§ 05 / Pertanyaan`,
+    faq_title:`Sering <span class="em">Ditanya.</span>`,
+    faq_desc:"Belum nemu jawaban? Langsung chat kami di WhatsApp.",
+    faq1_q:"Berapa lama waktu pengiriman?",
+    faq1_a:"Estimasi 1–3 hari untuk Jabodetabek, 2–5 hari untuk luar kota. Kami kirim setiap hari kerja melalui JNE, J&T, atau SiCepat sesuai pilihanmu di marketplace.",
+    faq2_q:"Bisa pesan custom nama atau logo?",
+    faq2_a:"Bisa banget! Untuk request nama, plat motor, atau logo komunitas, langsung chat via WhatsApp untuk konsultasi desain. MOQ custom mulai dari 5 pcs.",
+    faq3_q:"Bahan bordirnya tahan lama tidak?",
+    faq3_a:"Bahan canvas premium dengan jahitan rapat. Tahan air ringan, anti pudar, dan kuat untuk pemakaian harian. Hindari rendam air lama atau cuci dengan deterjen keras.",
+    faq4_q:"Bisa pesan dalam jumlah banyak (bulk / reseller)?",
+    faq4_a:"Tersedia harga khusus untuk pembelian bulk/reseller mulai dari 20 pcs. Cocok untuk merchandise komunitas motor, gift corporate, atau side business. Info lengkap via WhatsApp.",
+    faq5_q:"Kalau ada produk yang rusak atau tidak sesuai?",
+    faq5_a:"Kami QC ketat sebelum kirim. Kalau ada cacat produksi, langsung chat kami via WhatsApp dalam 3 hari setelah barang sampai untuk proses retur/tukar.",
+
+    nav_shop:"Shop", nav_catalog:"Katalog", nav_products:"Produk",
+    nav_why:"Kenapa Kichen", nav_instagram:"Instagram", nav_cta:"Belanja Sekarang",
+    brand_tag:"Motorcycle Key Tags & Small Accessories",
+    brand_tag_2:"Motorcycle Key Tags & Small Accessories",
+
+    hero_eyebrow:"Drop 02 · Rider Series 2026",
+    hero_title:`Buat <span class="ride">kuncimu</span><br/>Punya <span class="em">Karakter.</span>`,
+    hero_sub:`<b>Kichen Store</b> menghadirkan gantungan kunci motor, key tag, dan aksesori kecil dengan desain simpel, stylish, dan nyaman digunakan setiap hari.`,
+    hero_cta_shop:"Belanja Sekarang",
+    hero_cta_wa:"Chat via WhatsApp",
+    hero_strip:`<span><span class="dot"></span> <span class="b">1.200+</span> Riders served</span>\n<span><span class="dot"></span> Pengiriman seluruh Indonesia</span>\n<span><span class="dot"></span> Konsultasi <span class="b">gratis</span> via WA</span>`,
+
+    cap_kawasexy:"— buat si hijau ✺",
+    cap_track:"race track use only",
+    cap_red:"Enamel Pin ✦",
+    cap_heartbeat:"Enamel Pin",
+    sticker_new:`New Drop<br/><small>★ 2026 ★</small>`,
+    sticker_free:`<b>FREE</b>Sticker Pack`,
+
+    shop_stamp:`<span class="dot"></span> § 01 / Quick Shop`,
+    shop_title:`Pilih Tempat Belanja <span class="y">Favoritmu.</span>`,
+    shop_desc:"Pesan produk Kichen Store dengan mudah melalui marketplace pilihanmu atau langsung tanya via WhatsApp.",
+    shop_pill:`<span style="width:6px;height:6px;background:var(--red);display:inline-block"></span> 4 cara belanja`,
+
+    ticket01_h:"No. 01 · Marketplace", ticket02_h:"No. 02 · Marketplace",
+    ticket03_h:"No. 03 · Live Shop",  ticket04_h:"No. 04 · Direct",
+    stamp_orange:"ORANGE", stamp_green:"HIJAU", stamp_viral:"VIRAL", stamp_chat:"CHAT",
+    ticket_open_store_1:"Buka Toko →", ticket_open_store_2:"Buka Toko →",
+    ticket_watch_live:"Tonton Live →", ticket_chat_now:"Chat Sekarang →",
+
+    cat_stamp:`<span class="dot"></span> § 02 / Katalog`,
+    cat_title:`Aksesori Kecil,<br/>Karakter <span class="em">Besar.</span>`,
+    cat_desc:"Dari key tag motor sampai pin koleksi — semua produk Kichen Store dirancang untuk melengkapi gaya harianmu.",
+    seal_most_wanted:`MOST<br/>WANTED`, seal_limited:`LIMITED<br/>DROP`,
+    cat1_h:`Motorcycle<br/>Key <span class="y">Tags</span>`,
+    cat1_p:"Key tag bergaya untuk rider yang ingin tampil lebih personal sampai ke detail terkecil.",
+    cat2_h:`Custom<br/>Keychains`,
+    cat2_p:"Gantungan kunci simpel dengan karakter unik untuk penggunaan harian.",
+    cat3_h:`Small Daily<br/>Accessories`,
+    cat3_p:"Aksesori kecil yang praktis, ringan, dan mudah dibawa ke mana saja.",
+    cat4_h:`Gift &<br/>Collectible <span class="y">Items</span>`,
+    cat4_p:"Pilihan menarik untuk hadiah, koleksi, atau pelengkap gaya harian.",
+    see_series:"Lihat Seri", consult_wa:"Konsultasi WA",
+    see_series_3:"Lihat Seri", see_series_4:"Lihat Seri",
+
+    spec_stamp:`<span class="dot"></span> § 03 / Keunggulan`,
+    spec_title:`Kenapa Pilih <span class="y">Kichen Store?</span>`,
+    spec_desc:"Detail kecil, dampak besar untuk gaya harianmu.",
+    spec1_h:"Desain stylish dengan sentuhan lifestyle motor", spec1_p:"",
+    spec2_h:"Ringkas, praktis, dan nyaman digunakan setiap hari", spec2_p:"",
+    spec3_h:"Cocok untuk diri sendiri, komunitas, atau hadiah", spec3_p:"",
+    spec4_h:"Mudah dipesan melalui marketplace dan WhatsApp", spec4_p:"",
+    spec_approved:"Approved by · Tim Kichen Store",
+    spec_qc:`QC<br/>PASSED`,
+
+    gallery_stamp:`<span class="dot"></span> § 04 / Produk Pilihan`,
+    gallery_title:`Produk <span class="em">Pilihan.</span>`,
+    gallery_desc:"Temukan key tag dan aksesori kecil favoritmu untuk melengkapi gaya harian.",
+    see_full_catalog:"Lihat Semua Produk",
+    tag_best:"Best Seller", tag_new:"Baru", tag_restock:"Restock",
+    tag_limited:"Limited", tag_pindrop:"Pin Drop", tag_collector:"Collector", tag_gift:"Gift Pick",
+    g1_type:"Embroidered · Key Tag", g1_name:"Kawasexy Series",
+    g2_type:"Embroidered · Key Tag", g2_name:"RodaDua Patch",
+    g3_type:"Embroidered",           g3_name:"Heartbeat",
+    g4_type:"Embroidered",           g4_name:"Race Track",
+    g5_type:"Hard Enamel · Pin",     g5_name:"Bottle Cap",
+    g6_type:"Soft Enamel · Pin",     g6_name:"Fire Spirit",
+    g7_type:"Soft Enamel · Pin",     g7_name:"Mood Cloud",
+    price_from:"", price_from2:"", price_from3:"",
+    price_from4:"", price_from5:"", price_from6:"", price_from7:"",
+    buy_order_now:"Belanja Sekarang →", buy_order_now_2:"Belanja Sekarang →",
+    buy_order_3:"Beli →", buy_order_4:"Beli →", buy_order_5:"Beli →",
+    buy_order_now_6:"Belanja Sekarang →",
+    buy_ask_stock:"Tanya Stok via WA →",
+
+    ig_title:`Lihat Update<br/>Terbaru <span class="y">Kami.</span>`,
+    ig_desc:"Ikuti Instagram @kichen.co untuk melihat produk terbaru, inspirasi penggunaan, dan update promo dari Kichen Store.",
+    ig_cta:"Kunjungi Instagram",
+
+    final_pill:"§ Final Stop",
+    final_title:`Siap Bikin <span class="y">Kunci Kamu</span><br/>Lebih Berkarakter? <span class="em">↗</span>`,
+    final_desc:"Pilih produk favoritmu dan pesan dengan mudah melalui Shopee, Tokopedia, TikTok Shop, atau WhatsApp.",
+    fticket01_h:"No. 01", fticket02_h:"No. 02", fticket03_h:"No. 03", fticket04_h:"No. 04",
+    stamp_orange2:"ORANGE", stamp_green2:"HIJAU", stamp_live:"LIVE", stamp_chat2:"CHAT",
+    ft_order_1:"Belanja →", ft_order_2:"Belanja →", ft_order_3:"Belanja →", ft_chat:"Chat →",
+
+    foot_brand_desc:"Motorcycle Key Tags & Small Accessories — dirancang untuk melengkapi gaya berkendara dan gaya harianmu.",
+    rcpt_no:"NO. RECEIPT", rcpt_workshop:"WORKSHOP",
+    foot_buy:"Belanja", foot_catalog:"Katalog", foot_connect:"Connect",
+    foot_l1:"→ Motorcycle Key Tags", foot_l2:"→ Custom Keychains",
+    foot_l3:"→ Daily Accessories", foot_l4:`→ Gift &amp; Collectible`,
+    ig_word:"Instagram", custom_order:"Custom Order", bulk_reseller:`Bulk &amp; Reseller`,
+    copyright:`© 2026 Kichen Store <span class="sep">·</span> All rights reserved`,
+
+    sticky_shop:"Belanja", sticky_wa:"WhatsApp",
+
+    topbar_text:`★ Gantungan Kunci Motor <em class="x">/</em> Custom Key Tag <em class="x">/</em> Aksesori Harian <em class="x">/</em> Est. Kichen Store <em class="x">/</em> Free Konsultasi via WA <em class="x">/</em> Ready to Ship <em class="x">/</em>`,
+    ribbon_text:`Kichen Store <em class="x">✕</em> Gantungan Kunci Motor <em class="x">✕</em> Key Tag <em class="star">✪</em> Custom Keychain <em class="x">✕</em> Aksesori Harian <em class="x">✕</em> Daily Carry <em class="star">✪</em>`,
+    foot_seo:`gantungan kunci motor <span class="sep">·</span> custom key tag <span class="sep">·</span> aksesori motor`,
+
+    modal_title:`Pilih <span class="y">Tempat Belanja</span>`,
+    modal_sub:"Pesan produk Kichen Store langsung dari marketplace pilihanmu atau via WhatsApp.",
+    mticket01_h:"No. 01 · Marketplace", mticket02_h:"No. 02 · Marketplace",
+    mticket03_h:"No. 03 · Live Shop",  mticket04_h:"No. 04 · Direct",
+    mstamp_orange:"ORANGE", mstamp_green:"HIJAU", mstamp_viral:"VIRAL", mstamp_chat:"CHAT",
+    mt_open_1:"Buka Toko →", mt_open_2:"Buka Toko →",
+    mt_watch:"Tonton Live →", mt_chat:"Chat Sekarang →",
+    modal_foot_left:"Balas cepat · Pelayanan ramah",
+    modal_foot_right:"Esc untuk tutup"
+  },
+
+  en: {
+    nav_testi:"Reviews", nav_faq:"FAQ",
+    price_chip:"From Rp 25k", ship_chip:"Free Shipping", ship_chip_sub:"min. Rp 100k",
+    rating_chip:"from 500+ buyers",
+
+    testi_stamp:`§ Customer Reviews`,
+    testi_title:`What the <span class="em">Riders Say.</span>`,
+    rating_foot:"from 500+ marketplace reviews",
+    t1_body:'"Solid fabric, clean stitching, very light. After 3 months of daily use it still looks new. Worth it."',
+    t1_name:"Reza · Jakarta",
+    t2_body:'"Love the embroidery detail. It really makes my key stand out. Shipping was fast too."',
+    t2_name:"Faisal · Bandung",
+    t3_body:'"Bought one as a gift for a friend, he loved it. Clean packaging, with a bonus sticker too."',
+    t3_name:"Dinda · Surabaya",
+    t4_body:'"The owner is friendly, patient with custom questions. Result matched expectations. Highly recommended!"',
+    t4_name:"Aldi · Yogyakarta",
+
+    trust_verified:`Verified Seller<br/><b>Shopee &middot; Tokopedia</b>`,
+    trust_ship:`Fast Shipping<br/><b>JNE &middot; J&T &middot; SiCepat</b>`,
+    trust_pay:`Easy Payment<br/><b>QRIS &middot; e-Wallet &middot; Transfer</b>`,
+    trust_reply:`Quick Reply<br/><b>WA during business hours</b>`,
+
+    faq_stamp:`§ 05 / FAQ`,
+    faq_title:`Frequently <span class="em">Asked.</span>`,
+    faq_desc:"Can't find an answer? Just chat us directly on WhatsApp.",
+    faq1_q:"How long does shipping take?",
+    faq1_a:"1–3 days for Jabodetabek, 2–5 days for outside the city. We ship every business day via JNE, J&T, or SiCepat — your choice at checkout.",
+    faq2_q:"Can I order custom names or logos?",
+    faq2_a:"Absolutely! For custom names, plate numbers, or community logos, chat us via WhatsApp for design consultation. MOQ for custom starts at 5 pcs.",
+    faq3_q:"How durable is the embroidery?",
+    faq3_a:"Premium canvas with tight stitching. Water-resistant, fade-resistant, and built for daily use. Avoid soaking in water or washing with harsh detergent.",
+    faq4_q:"Can I order in bulk (wholesale / reseller)?",
+    faq4_a:"Special pricing available for bulk/reseller orders from 20 pcs and up. Perfect for moto community merch, corporate gifts, or side business. Details via WhatsApp.",
+    faq5_q:"What if the product arrives damaged or wrong?",
+    faq5_a:"We QC carefully before shipping. If there's a production defect, chat us via WhatsApp within 3 days of delivery for return/exchange.",
+
+    nav_shop:"Shop", nav_catalog:"Catalog", nav_products:"Products",
+    nav_why:"Why Kichen", nav_instagram:"Instagram", nav_cta:"Shop Now",
+    brand_tag:"Motorcycle Key Tags & Small Accessories",
+    brand_tag_2:"Motorcycle Key Tags & Small Accessories",
+
+    hero_eyebrow:"Drop 02 · Rider Series 2026",
+    hero_title:`Give your <span class="ride">keys</span><br/>some <span class="em">character.</span>`,
+    hero_sub:`<b>Kichen Store</b> creates motorcycle key tags, custom keychains, and small accessories with simple, stylish, and everyday-ready designs.`,
+    hero_cta_shop:"Shop Now",
+    hero_cta_wa:"Chat on WhatsApp",
+    hero_strip:`<span><span class="dot"></span> <span class="b">1,200+</span> Riders served</span>\n<span><span class="dot"></span> Worldwide Shipping</span>\n<span><span class="dot"></span> <span class="b">Free</span> consultation via WA</span>`,
+
+    cap_kawasexy:"— for the green one ✺",
+    cap_track:"race track use only",
+    cap_red:"Enamel Pin ✦",
+    cap_heartbeat:"Enamel Pin",
+    sticker_new:`New Drop<br/><small>★ 2026 ★</small>`,
+    sticker_free:`<b>FREE</b>Sticker Pack`,
+
+    shop_stamp:`<span class="dot"></span> § 01 / Quick Shop`,
+    shop_title:`Choose Your Favorite Way <span class="y">to Shop.</span>`,
+    shop_desc:"Order Kichen Store products easily through your preferred marketplace or contact us directly via WhatsApp.",
+    shop_pill:`<span style="width:6px;height:6px;background:var(--red);display:inline-block"></span> 4 ways to shop`,
+
+    ticket01_h:"No. 01 · Marketplace", ticket02_h:"No. 02 · Marketplace",
+    ticket03_h:"No. 03 · Live Shop",  ticket04_h:"No. 04 · Direct",
+    stamp_orange:"ORANGE", stamp_green:"GREEN", stamp_viral:"VIRAL", stamp_chat:"CHAT",
+    ticket_open_store_1:"Open Store →", ticket_open_store_2:"Open Store →",
+    ticket_watch_live:"Watch Live →",   ticket_chat_now:"Chat Now →",
+
+    cat_stamp:`<span class="dot"></span> § 02 / Catalog`,
+    cat_title:`Small Accessories,<br/>Strong <span class="em">Character.</span>`,
+    cat_desc:"From motorcycle key tags to collectible pins — every Kichen Store piece is designed to complete your everyday style.",
+    seal_most_wanted:`MOST<br/>WANTED`, seal_limited:`LIMITED<br/>DROP`,
+    cat1_h:`Motorcycle<br/>Key <span class="y">Tags</span>`,
+    cat1_p:"Stylish key tags for riders who want every detail to feel personal.",
+    cat2_h:`Custom<br/>Keychains`,
+    cat2_p:"Simple keychains with unique character, made for everyday use.",
+    cat3_h:`Small Daily<br/>Accessories`,
+    cat3_p:"Compact accessories that are practical, lightweight, and easy to carry.",
+    cat4_h:`Gift &<br/>Collectible <span class="y">Items</span>`,
+    cat4_p:"Great options for gifts, collections, or everyday style details.",
+    see_series:"View Series", consult_wa:"Chat on WhatsApp",
+    see_series_3:"View Series", see_series_4:"View Series",
+
+    spec_stamp:`<span class="dot"></span> § 03 / Why Us`,
+    spec_title:`Why Choose <span class="y">Kichen Store?</span>`,
+    spec_desc:"Small details, big impact for your everyday style.",
+    spec1_h:"Stylish designs inspired by motorcycle lifestyle", spec1_p:"",
+    spec2_h:"Compact, practical, and comfortable for daily use", spec2_p:"",
+    spec3_h:"Great for personal use, communities, or gifts", spec3_p:"",
+    spec4_h:"Easy ordering through marketplaces and WhatsApp", spec4_p:"",
+    spec_approved:"Approved by · Kichen Store team",
+    spec_qc:`QC<br/>PASSED`,
+
+    gallery_stamp:`<span class="dot"></span> § 04 / Featured Products`,
+    gallery_title:`Featured <span class="em">Products.</span>`,
+    gallery_desc:"Discover your favorite key tags and small accessories to complete your everyday style.",
+    see_full_catalog:"See All Products",
+    tag_best:"Best Seller", tag_new:"New", tag_restock:"Restock",
+    tag_limited:"Limited", tag_pindrop:"Pin Drop", tag_collector:"Collector", tag_gift:"Gift Pick",
+    g1_type:"Embroidered · Key Tag", g1_name:"Kawasexy Series",
+    g2_type:"Embroidered · Key Tag", g2_name:"RodaDua Patch",
+    g3_type:"Embroidered",           g3_name:"Heartbeat",
+    g4_type:"Embroidered",           g4_name:"Race Track",
+    g5_type:"Hard Enamel · Pin",     g5_name:"Bottle Cap",
+    g6_type:"Soft Enamel · Pin",     g6_name:"Fire Spirit",
+    g7_type:"Soft Enamel · Pin",     g7_name:"Mood Cloud",
+    price_from:"", price_from2:"", price_from3:"",
+    price_from4:"", price_from5:"", price_from6:"", price_from7:"",
+    buy_order_now:"Shop Now →", buy_order_now_2:"Shop Now →",
+    buy_order_3:"Order →", buy_order_4:"Order →", buy_order_5:"Order →",
+    buy_order_now_6:"Shop Now →",
+    buy_ask_stock:"Check Stock via WA →",
+
+    ig_title:`See Our <span class="y">Latest Updates.</span>`,
+    ig_desc:"Follow @kichen.co on Instagram for new products, usage inspiration, and promo updates from Kichen Store.",
+    ig_cta:"Visit Instagram",
+
+    final_pill:"§ Final Stop",
+    final_title:`Ready to Give Your <span class="y">Keys</span><br/>More Character? <span class="em">↗</span>`,
+    final_desc:"Choose your favorite product and order easily through Shopee, Tokopedia, TikTok Shop, or WhatsApp.",
+    fticket01_h:"No. 01", fticket02_h:"No. 02", fticket03_h:"No. 03", fticket04_h:"No. 04",
+    stamp_orange2:"ORANGE", stamp_green2:"GREEN", stamp_live:"LIVE", stamp_chat2:"CHAT",
+    ft_order_1:"Shop →", ft_order_2:"Shop →", ft_order_3:"Shop →", ft_chat:"Chat →",
+
+    foot_brand_desc:"Motorcycle Key Tags & Small Accessories — designed to complete your ride and everyday style.",
+    rcpt_no:"NO. RECEIPT", rcpt_workshop:"WORKSHOP",
+    foot_buy:"Shop", foot_catalog:"Catalog", foot_connect:"Connect",
+    foot_l1:"→ Motorcycle Key Tags", foot_l2:"→ Custom Keychains",
+    foot_l3:"→ Daily Accessories", foot_l4:`→ Gifts &amp; Collectibles`,
+    ig_word:"Instagram", custom_order:"Custom Order", bulk_reseller:`Bulk &amp; Reseller`,
+    copyright:`© 2026 Kichen Store <span class="sep">·</span> All rights reserved`,
+
+    sticky_shop:"Shop", sticky_wa:"WhatsApp",
+
+    topbar_text:`★ Motorcycle Key Tags <em class="x">/</em> Custom Key Tags <em class="x">/</em> Daily Accessories <em class="x">/</em> Est. Kichen Store <em class="x">/</em> Free Consultation via WA <em class="x">/</em> Ready to Ship <em class="x">/</em>`,
+    ribbon_text:`Kichen Store <em class="x">✕</em> Motorcycle Key Tags <em class="x">✕</em> Key Tags <em class="star">✪</em> Custom Keychains <em class="x">✕</em> Daily Accessories <em class="x">✕</em> Daily Carry <em class="star">✪</em>`,
+    foot_seo:`motorcycle key tags <span class="sep">·</span> custom key tags <span class="sep">·</span> moto accessories`,
+
+    modal_title:`Pick Your <span class="y">Shop</span>`,
+    modal_sub:"Order Kichen Store products through your preferred marketplace or directly via WhatsApp.",
+    mticket01_h:"No. 01 · Marketplace", mticket02_h:"No. 02 · Marketplace",
+    mticket03_h:"No. 03 · Live Shop",  mticket04_h:"No. 04 · Direct",
+    mstamp_orange:"ORANGE", mstamp_green:"GREEN", mstamp_viral:"VIRAL", mstamp_chat:"CHAT",
+    mt_open_1:"Open Store →", mt_open_2:"Open Store →",
+    mt_watch:"Watch Live →", mt_chat:"Chat Now →",
+    modal_foot_left:"Fast reply · Friendly service",
+    modal_foot_right:"Press Esc to close"
+  }
+};
+
+/* ============================== APPLY LANG ============================== */
+function applyLang(lang){
+  if(!TRANSLATIONS[lang]) lang = 'id';
+  const dict = TRANSLATIONS[lang];
+  document.documentElement.lang = lang;
+
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const k = el.dataset.i18n;
+    if(dict[k] !== undefined) el.textContent = dict[k];
+  });
+  document.querySelectorAll('[data-i18n-html]').forEach(el => {
+    const k = el.dataset.i18nHtml;
+    if(dict[k] !== undefined) el.innerHTML = dict[k];
+  });
+
+  document.querySelectorAll('.lang button').forEach(b => {
+    const active = b.dataset.lang === lang;
+    b.classList.toggle('active', active);
+    b.setAttribute('aria-pressed', active ? 'true' : 'false');
+  });
+
+  try { localStorage.setItem('kichen-lang', lang); } catch(e){}
+}
+
+/* lang switcher click */
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('.lang button');
+  if(!b) return;
+  applyLang(b.dataset.lang);
+});
+
+/* default lang: localStorage > browser > id */
+(function initLang(){
+  let stored = null;
+  try { stored = localStorage.getItem('kichen-lang'); } catch(e){}
+  let lang = stored;
+  if(!lang){
+    const nav = (navigator.language || 'id').toLowerCase();
+    lang = nav.startsWith('id') ? 'id' : (nav.startsWith('en') ? 'en' : 'id');
+  }
+  applyLang(lang);
+})();
+
+/* ============================== NAV SCROLL STATE ============================== */
+const nav = document.querySelector('.nav');
+let lastY = 0;
+function onScroll(){
+  const y = window.scrollY;
+  nav.classList.toggle('scrolled', y > 12);
+  lastY = y;
+}
+window.addEventListener('scroll', onScroll, {passive:true});
+onScroll();
+
+/* ============================== REVEAL ON SCROLL ============================== */
+const revealTargets = [
+  '.hero-grid > div:first-child > *',
+  '.tickets .ticket',
+  '.pcard',
+  '.spec-row',
+  '.gallery .item',
+  '.insta-block > *',
+  '.final h2, .final p, .final .tickets .ticket',
+  '.sec-head > *',
+  '.specsheet-head, .specsheet-foot',
+  '.ribbon',
+];
+const revealEls = [];
+revealTargets.forEach(sel => document.querySelectorAll(sel).forEach(el => { el.classList.add('reveal'); revealEls.push(el); }));
+
+if('IntersectionObserver' in window){
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if(e.isIntersecting){
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      }
+    });
+  }, {threshold: 0.08, rootMargin: '0px 0px -8% 0px'});
+  revealEls.forEach(el => io.observe(el));
+} else {
+  revealEls.forEach(el => el.classList.add('in'));
+}
+
+/* hero collage entrance */
+window.addEventListener('load', () => {
+  document.querySelector('.collage')?.classList.add('loaded');
+});
+
+/* ============================== STICKY CTA SHOW/HIDE ============================== */
+const sticky = document.querySelector('.sticky-cta');
+const footer = document.querySelector('footer');
+let footerVisible = false;
+
+if(sticky && 'IntersectionObserver' in window){
+  // hide when footer is visible (don't cover footer info)
+  if(footer){
+    const fo = new IntersectionObserver((entries) => {
+      entries.forEach(e => { footerVisible = e.isIntersecting; updateStickyVisibility(); });
+    }, {threshold: 0});
+    fo.observe(footer);
+  }
+}
+
+function updateStickyVisibility(){
+  if(!sticky) return;
+  // show only after user scrolled past a threshold (skip if hero is still in view)
+  const threshold = Math.min(window.innerHeight * 0.6, 480);
+  const scrolled = window.scrollY > threshold;
+  const shouldShow = scrolled && !footerVisible;
+  sticky.classList.toggle('is-visible', shouldShow);
+}
+
+// hook into existing scroll handler
+window.addEventListener('scroll', updateStickyVisibility, {passive:true});
+updateStickyVisibility();
+
+/* ============================== SMOOTH IN-PAGE NAV ============================== */
+/* CSS scroll-behavior + scroll-padding-top handles this natively */
+
+/* ============================== V3: MOBILE MENU ============================== */
+(function(){
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  if(!toggle || !menu) return;
+
+  function setOpen(open){
+    document.body.classList.toggle('menu-open', open);
+    menu.setAttribute('aria-hidden', open ? 'false' : 'true');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  }
+  toggle.addEventListener('click', () => {
+    setOpen(!document.body.classList.contains('menu-open'));
+  });
+  // close menu when a nav link inside is clicked
+  menu.querySelectorAll('[data-mobile-link]').forEach(a => {
+    a.addEventListener('click', () => setTimeout(() => setOpen(false), 50));
+  });
+  // close on resize to desktop
+  window.addEventListener('resize', () => {
+    if(window.innerWidth >= 900) setOpen(false);
+  });
+  document.addEventListener('keydown', (e) => {
+    if(e.key === 'Escape') setOpen(false);
+  });
+})();
+
+/* ============================== SHOP MODAL ============================== */
+function initShopModal(){
+  const modal = document.getElementById('shop-modal');
+  if(!modal) return;
+  const panel = modal.querySelector('.shop-modal__panel');
+  let lastFocus = null;
+
+  function openModal(e){
+    if(e){ e.preventDefault(); }
+    lastFocus = document.activeElement;
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden','false');
+    document.body.classList.add('shop-modal-open');
+    // focus first focusable inside
+    setTimeout(() => {
+      const focusable = modal.querySelector('.shop-modal__close');
+      focusable && focusable.focus({preventScroll:true});
+    }, 120);
+  }
+
+  function closeModal(){
+    if(!modal.classList.contains('open')) return;
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden','true');
+    document.body.classList.remove('shop-modal-open');
+    if(lastFocus && lastFocus.focus) lastFocus.focus({preventScroll:true});
+  }
+
+  // open triggers
+  document.querySelectorAll('[data-shop-trigger]').forEach(t => {
+    t.addEventListener('click', openModal);
+  });
+
+  // close triggers (backdrop, X button)
+  modal.querySelectorAll('[data-shop-close]').forEach(c => {
+    c.addEventListener('click', closeModal);
+  });
+
+  // close when a ticket inside is clicked (let the link navigate)
+  modal.querySelectorAll('.shop-modal__grid .ticket').forEach(t => {
+    t.addEventListener('click', () => setTimeout(closeModal, 80));
+  });
+
+  // Esc closes
+  document.addEventListener('keydown', (e) => {
+    if(e.key === 'Escape') closeModal();
+  });
+
+  // simple focus trap
+  modal.addEventListener('keydown', (e) => {
+    if(e.key !== 'Tab') return;
+    const focusables = modal.querySelectorAll('a[href], button:not([disabled])');
+    if(!focusables.length) return;
+    const first = focusables[0];
+    const last  = focusables[focusables.length - 1];
+    if(e.shiftKey && document.activeElement === first){ e.preventDefault(); last.focus(); }
+    else if(!e.shiftKey && document.activeElement === last){ e.preventDefault(); first.focus(); }
+  });
+}
+if(document.readyState === 'loading'){
+  document.addEventListener('DOMContentLoaded', initShopModal);
+} else {
+  initShopModal();
+}
+
+</script>
+<!-- =============== SHOP MODAL =============== -->
+<div class="shop-modal" id="shop-modal" role="dialog" aria-modal="true" aria-labelledby="shop-modal-title" aria-hidden="true">
+  <div class="shop-modal__backdrop" data-shop-close></div>
+  <div class="shop-modal__panel" role="document">
+    <div class="shop-modal__head">
+      <div>
+        <h2 class="shop-modal__title" id="shop-modal-title" data-i18n-html="modal_title">Pilih <span class="y">tempat order</span></h2>
+        <p class="shop-modal__sub" data-i18n="modal_sub">Klik salah satu platform di bawah — langsung diarahkan ke toko atau chat kita.</p>
+      </div>
+      <button class="shop-modal__close" type="button" data-shop-close aria-label="Close">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6l-12 12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+
+    <div class="shop-modal__grid">
+      <a class="ticket grain" data-b="shopee" href="https://shopee.co.id/kichen.co" target="_blank" rel="noopener">
+        <div class="head"><span data-i18n="mticket01_h">No. 01 · Marketplace</span><span class="stamp" data-i18n="mstamp_orange">ORANGE</span></div>
+        <div class="name">Shopee</div>
+        <div class="url">shopee.co.id/kichen.co</div>
+        <div class="foot"><span class="go" data-i18n="mt_open_1">Buka Toko →</span><span class="ar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+      </a>
+      <a class="ticket grain" data-b="toko" href="https://www.tokopedia.com/kichenstore" target="_blank" rel="noopener">
+        <div class="head"><span data-i18n="mticket02_h">No. 02 · Marketplace</span><span class="stamp" data-i18n="mstamp_green">HIJAU</span></div>
+        <div class="name">Tokopedia</div>
+        <div class="url">tokopedia.com/kichenstore</div>
+        <div class="foot"><span class="go" data-i18n="mt_open_2">Buka Toko →</span><span class="ar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+      </a>
+      <a class="ticket grain" data-b="tiktok" href="https://vt.tiktok.com/ZSxMKqcJt/?page=Mall" target="_blank" rel="noopener">
+        <div class="head"><span data-i18n="mticket03_h">No. 03 · Live Shop</span><span class="stamp" data-i18n="mstamp_viral">VIRAL</span></div>
+        <div class="name">TikTok Shop</div>
+        <div class="url">@kichen.co · Mall</div>
+        <div class="foot"><span class="go" data-i18n="mt_watch">Tonton Live →</span><span class="ar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+      </a>
+      <a class="ticket grain" data-b="wa" href="https://api.whatsapp.com/send?phone=6289662527558&text=Halo%20@kichen.co%20Saya%20Mau%20Order%20atau%20tanya-tanya%20boleh?" target="_blank" rel="noopener">
+        <div class="head"><span data-i18n="mticket04_h">No. 04 · Direct</span><span class="stamp" data-i18n="mstamp_chat">CHAT</span></div>
+        <div class="name">WhatsApp</div>
+        <div class="url">+62 896-6252-7558</div>
+        <div class="foot"><span class="go" data-i18n="mt_chat">Chat Sekarang →</span><span class="ar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+      </a>
+    </div>
+
+    <div class="shop-modal__foot">
+      <span><span class="dot"></span> <span data-i18n="modal_foot_left">Balas cepat · No ghosting</span></span>
+      <span data-i18n="modal_foot_right">Esc untuk tutup</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
